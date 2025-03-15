@@ -1,75 +1,9 @@
-# Nuxt UI v3 Starter
+# MOVEMENT KOLEKTYW webpage
 
-Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui3.nuxt.dev) to learn more.
+| **Technologia** | **Wersja**      | **Uwagi**                                              |
+|-----------------|-----------------|--------------------------------------------------------|
+| **Node.js**     | 22.14.0         | Zalecana stabilna wersja LTS 22.x                      |
+| **Nuxt 3**      | 3.16.0          | Główne środowisko aplikacji (SSR/SPA)                  |
+| **@nuxt/ui**    | 3.0.0           | Biblioteka komponentów Nuxt UI                         |
+| **Tailwind CSS**| 4.0.14          | Framework CSS do stylowania i elastycznego układu      |
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
