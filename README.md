@@ -1,10 +1,11 @@
-# 🤸🏻 MOVEMENT KOLEKTYW website
+![name](https://github.com/pasikonik/movementkolektyw/blob/main/public/name.png?raw=true)
+# 🤸🏻 Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/78d13553-f15a-40aa-b2e5-0476bfa32091/deploy-status)](https://app.netlify.com/sites/movementkolektyw/deploys)
 
 Page about movement group.
 
-### ⚙️ Technology Stack
+## ⚙️ Technology Stack
 
 | **Technology**  | **Version** |**Notes**                                               |
 |-----------------|-------------|---------------------------------------------------------|
@@ -18,8 +19,13 @@ Page about movement group.
 
 ## 🚩 Roadmap
 
-- [x] Basic layout
-- [ ] Home Page
+- [x] Layout:
+    - [x] Basic Page Structure
+    - [ ] Header Menu
+- [ ] Home Page:
+    - [ ] Hero Section
+    - [ ] Topics Map
 - [ ] Contact Page
 - [ ] Practice page
 - [ ] Use Nuxt Image (bug)
+
