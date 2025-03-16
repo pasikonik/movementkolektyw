@@ -6,12 +6,15 @@ Page about movement group.
 
 ### Technology Stack
 
-| **Technologia** | **Wersja**      | **Uwagi**                                              |
-|-----------------|-----------------|--------------------------------------------------------|
-| **Node.js**     | 22.14.0         | Zalecana stabilna wersja LTS 22.x                      |
-| **Nuxt 3**      | 3.16.0          | Główne środowisko aplikacji (SSR/SPA)                  |
-| **@nuxt/ui**    | 3.0.0           | Biblioteka komponentów Nuxt UI                         |
-| **Tailwind CSS**| 4.0.14          | Framework CSS do stylowania i elastycznego układu      |
+| **Technology**  | **Version** |**Notes**                                               |
+|-----------------|-------------|---------------------------------------------------------|
+| **Node.js**     | 22.14.0     | Recommended stable LTS version 22.x                     |
+| **Nuxt 3**      | 3.16.0      | Primary application framework (SSR/SPA)                 |
+| **@nuxt/ui**    | 3.0.0       | Nuxt UI component library                               |
+| **Tailwind CSS**| 4.0.14      | CSS framework for styling and flexible layouts          |
+| **Vue**         | 3.5.13      | Core framework for building user interfaces             |
+| **pnpm**        | 10.6.3      | Fast and efficient package manager for Node.js projects |
 
 
-Hosting on Netlify
+<sub> Hosted on Netlify </sub>
+
