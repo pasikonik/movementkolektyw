@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   ],
 
   gtag: {
-    id: 'GTM-TWL2ZX5P'
+    id: 'G-7V9WX2JCKS'
   },
 
   stylelint: {
