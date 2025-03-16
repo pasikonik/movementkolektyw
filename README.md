@@ -1,5 +1,7 @@
 # MOVEMENT KOLEKTYW webpage
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78d13553-f15a-40aa-b2e5-0476bfa32091/deploy-status)](https://app.netlify.com/sites/movementkolektyw/deploys)
+
 Page about movement group.
 
 ### Technology Stack

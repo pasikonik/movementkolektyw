@@ -1,5 +1,7 @@
 <template>
-    <UContainer>
-        <h1>Zajęcia</h1>
+    <UContainer class="flexjustify-center">
+        <h1>Plan</h1>
+
+        <NuxtImg src="plan.png" alt="timetable" />
     </UContainer>
 </template>

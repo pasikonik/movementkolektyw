@@ -1,26 +1,23 @@
 <template>
-  <!-- Komponent nagłówka z Nuxt UI v3 -->
-  <UHeader class="header">
+  <div class="header">
     <UContainer>
       <div class="flex justify-between">
-        <div>
-          <img src="~/assets/images/name.png" alt="Logo firmy" class="logo-img">
-        </div>
 
-        <!-- Menu nawigacyjne -->
+        <NuxtLink to="/">
+          <!-- <NuxtImg src="/name.png" alt="MOVEMENT KOLEKTYW" /> -->
+          <img src="/name.png" alt="MOVEMENT KOLEKTYW">
+        </NuxtLink>
+
         <nav class="nav">
-          <!-- UFlex ustawia przyciski obok siebie, z odstępem (gap) -->
           <div>
             <UButton variant="ghost" size="xl" as="nuxt-link" to="/mission">Misja</UButton>
             <UButton variant="ghost" size="xl" as="nuxt-link" to="/practice">Zajęcia</UButton>
             <UButton variant="ghost" size="xl" as="nuxt-link" to="/contact">Kontakt</UButton>
           </div>
         </nav>
-
-
       </div>
     </UContainer>
-  </UHeader>
+  </div>
 </template>
 
 <script setup>
