@@ -6,6 +6,5 @@
     "ignoreFiles": [
         "**/main.css"
     ],
-    "rules": {
-    }
+    "rules": {}
 }
