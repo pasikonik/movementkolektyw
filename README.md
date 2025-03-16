@@ -1,9 +1,9 @@
 ![name](https://github.com/pasikonik/movementkolektyw/blob/main/public/name.png?raw=true)
-# 🤸🏻 Website
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/78d13553-f15a-40aa-b2e5-0476bfa32091/deploy-status)](https://app.netlify.com/sites/movementkolektyw/deploys)
 
-Page about movement group.
+## 📜 Website
+
+Informational page about movement community.
 
 ## ⚙️ Technology Stack
 
@@ -28,4 +28,4 @@ Page about movement group.
 - [ ] Contact Page
 - [ ] Practice page
 - [ ] Use Nuxt Image (bug)
-
+- [ ] Adjust to mobile

@@ -11,7 +11,12 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/test-utils',
     '@nuxtjs/stylelint-module',
+    'nuxt-gtag'
   ],
+
+  gtag: {
+    id: 'GTM-TWL2ZX5P'
+  },
 
   stylelint: {
     failOnError: false

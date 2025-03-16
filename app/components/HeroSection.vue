@@ -1,23 +1,22 @@
 <template>
-    <!-- Zewnętrzny wrapper hero -->
-    <section class="hero-section ">
-        <!-- Kontener z Nuxt UI -->
-        <UContainer class="hero-content">
-            <!-- Nagłówek (tutaj np. tytuł zachęcający do zgłębiania naturalnych metod) -->
-            <UHeading level="1" class="hero-title">
-                Porusz w sobie to co najlepsze
-            </UHeading>
-
-            <!-- Krótki opis / zachęta -->
-            <div class="hero-description">
-                <p> JESTEŚMY SPOŁECZNOŚCIĄ RUCHOWĄ, KTÓRA EKSPLORUJE CIAŁO I JEGO MOŻLIWOŚCI W SPOSÓB NIESZABLONOWY </p>
-                <p> NIE ZAMYKAMY SIĘ W SCHEMATACH – ZAMIAST TEGO EKSPLORUJEMY, TESTUJEMY I ROZWIJAMY SIĘ RAZEM. </p>
+    <section class="wrapper relative bg-gray-900 text-white py-24 px-6 flex items-center justify-center">
+        <div class="max-w-4xl text-center">
+            <h1 class="text-4xl sm:text-6xl font-bold tracking-tight">
+                Odkryj pełnię ruchu.<br> Przekraczaj granice.
+            </h1>
+            <p class="mt-6 text-lg sm:text-xl">
+                Jesteśmy społecznością ludzi którzy ćwiczą poprzez eksplorują poprzez odkrywanie możliwości swojego ciała
+                na nowo. Nie trzymamy się schematów, bo ciało
+                jest stworzone do ruchu w każdej formie. Skaczemy, przemieszczamy, balansujemy, testujemy swoje możliwości i
+                uczymy się od siebie nawzajem.
+            </p>
+            <p class="mt-6 text-lg sm:text-xl">
+                Przyjdź do nas i zobacz, jak daleko może zaprowadzić Cię ciało, gdy dasz mu przestrzeń do działania.
+            </p>
+            <div class="mt-8 flex justify-center gap-4">
+                <UButton to="/practice" size="xl">Dołącz i przekonaj się, co potrafisz 🐒</UButton>
             </div>
-
-            <UButton variant="primary" as="nuxt-link" to="/" class="hero-cta">
-                Eksploruj
-            </UButton>
-        </UContainer>
+        </div>
     </section>
 </template>
 
@@ -26,36 +25,8 @@
 </script>
 
 <style scoped>
-.hero-section {
+.wrapper {
     background: url('/photo-1.jpg') no-repeat center/cover;
-    padding: 0 1rem;
-    text-align: center;
     min-height: calc(100vh - 82px);
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.hero-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.hero-description {
-    font-size: 1.125rem;
-    margin-bottom: 2rem;
-    line-height: 1.6;
-    color: #333;
-}
-
-.hero-cta {
-    font-size: 1rem;
-    padding: 0.75rem 1.5rem;
 }
 </style>

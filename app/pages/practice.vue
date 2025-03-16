@@ -1,7 +1,7 @@
 <template>
-    <UContainer class="flexjustify-center">
-        <h1>Plan</h1>
+    <UContainer class="flex flex-row justify-center">
+        <h3 class="text-3xl font-bold">Plan</h3>
 
-        <NuxtImg src="plan.png" alt="timetable" />
+        <img src="/plan.png" alt="timetable">
     </UContainer>
 </template>

@@ -1,10 +1,10 @@
 <template>
-  <ULayout class="flex flex-col">
+  <ULayout class="flex flex-col h-full">
     <Header />
 
-    <UMain class="flex-1">
-      <NuxtPage />
-    </UMain>
+      <main class="content">
+        <NuxtPage />
+      </main>
 
     <Footer />
   </ULayout>
@@ -14,3 +14,9 @@
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 </script>
+
+<style scoped>
+.content {
+  min-height: calc(100vh - 192px);
+}
+</style>
