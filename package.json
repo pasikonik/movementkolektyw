@@ -8,8 +8,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:js": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "lint:css": "stylelint \"**/*.{vue,scss,css}\"",
+    "lint:css:fix": "stylelint \"**/*.{vue,scss,css}\" --fix"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.29",
@@ -24,7 +26,11 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.2.0",
+    "@nuxtjs/stylelint-module": "^5.2.0",
     "eslint": "^9.22.0",
+    "stylelint": "^16.16.0",
+    "stylelint-config-recommended-vue": "^1.6.0",
+    "stylelint-config-standard": "^37.0.0",
     "typescript": "^5.8.2"
   },
   "packageManager": "pnpm@10.6.3"

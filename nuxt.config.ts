@@ -9,8 +9,13 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxt/test-utils'
+    '@nuxt/test-utils',
+    '@nuxtjs/stylelint-module',
   ],
+
+  stylelint: {
+    failOnError: false
+  },
 
   css: ['~/assets/css/main.css'],
 
