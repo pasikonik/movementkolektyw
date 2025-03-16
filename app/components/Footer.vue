@@ -1,22 +1,16 @@
 <template>
   <div class="footer">
-    <UContainer>
-      <div class="mt-2 flex justify-center gap-4">
-        <a 
-          href="https://facebook.com/profile.php?id=61574152281731" target="_blank" rel="noopener noreferrer"
-          class="inline-block">
-          <UIcon name="logos:facebook" alt="Facebook" class="w-6 h-6 inline-block" />
-        </a>
+    <div class="flex justify-center gap-4 my-2">
+      <a href="https://facebook.com/profile.php?id=61574152281731" target="_blank" rel="noopener noreferrer" class="inline-block">
+        <UIcon name="fa-brands:facebook-square" alt="Facebook" class="w-6 h-6 inline-block" />
+      </a>
 
-        <a 
-          href="https://instagram.com/movement_kolektyw" target="_blank" rel="noopener noreferrer"
-          class="inline-block">
-          <UIcon name="logos:instagram-icon" alt="Instagram" class="w-6 h-6 inline-block" />
-        </a>
-      </div>
+      <a href="https://instagram.com/movement_kolektyw" target="_blank" rel="noopener noreferrer" class="inline-block">
+        <UIcon name="fa-brands:instagram" alt="Instagram" class="w-6 h-6 inline-block" />
+      </a>
+    </div>
 
-      <p>© {{ currentYear }} MOVEMENT KOLEKTYW</p>
-    </UContainer>
+    <p>© {{ currentYear }} MOVEMENT KOLEKTYW</p>
   </div>
 </template>
 
