@@ -14,7 +14,8 @@
                     </svg>
                     <a href="https://maps.app.goo.gl/rdUvGnu2DjSosHtv7" target="_blank"
                         class="text-gray-700 font-medium hover:text-green-600 transition duration-200">
-                        ul. Wielka 19/8, 61-775 Poznań, Polska
+                        ul. Wielka 19/8 <br>
+                        61-775 Poznań, Polska
                     </a>
                 </div>
                 <div class="flex items-start space-x-4">
