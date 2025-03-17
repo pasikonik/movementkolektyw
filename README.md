@@ -22,10 +22,10 @@ Informational page about movement community.
 - [x] Layout:
     - [x] Basic Page Structure
     - [ ] Header Menu
-- [ ] Home Page:
-    - [ ] Hero Section
-    - [ ] Topics Map
-- [ ] Contact Page
-- [ ] Practice page
+- [x] Home Page:
+    - [x] Hero Section
+    - [x] Topics Map
+- [x] Contact Page
+- [x] Practice page
 - [ ] Use Nuxt Image (bug)
 - [ ] Adjust to mobile
