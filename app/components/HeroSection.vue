@@ -14,7 +14,7 @@
                 Przyjdź do nas i zobacz, jak daleko może zaprowadzić Cię ciało, gdy dasz mu przestrzeń do działania.
             </p>
             <div class="mt-8 flex justify-center gap-4">
-                <UButton to="/practice" size="xl">Dołącz i przekonaj się, co potrafisz 🐒</UButton>
+                <UButton class="p-5 text-xl font-bold" to="/practice">Dołącz i przekonaj się, co potrafisz 🐒</UButton>
             </div>
         </div>
     </section>
