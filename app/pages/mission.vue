@@ -36,7 +36,7 @@
                 każdy jest mile widziany! 💙
             </p>
 
-            <img class="pt-8" src="/ciało.jpeg">
+            <img class="pt-8" src="/Body-trans.png">
         </section>
     </UContainer>
 </template>
