@@ -16,10 +16,14 @@
                     Przyjdź do nas i zobacz, jak daleko może zaprowadzić Cię ciało, gdy dasz mu przestrzeń do działania.
                 </p>
             </div>
+
         </div>
 
+
         <UButton class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-5 text-xl font-bold border-2"
-            to="/practice" variant="outline">Dołącz i przekonaj się, co potrafisz 🐒</UButton>
+            to="/practice" variant="outline">
+            Dołącz i przekonaj się, co potrafisz 🐒
+        </UButton>
     </div>
 </template>
 

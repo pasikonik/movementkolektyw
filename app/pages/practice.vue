@@ -3,21 +3,20 @@
 
         <h1 class="text-4xl font-bold text-center mb-8">Zajęcia</h1>
 
-
         <table class=" bg-white">
             <thead>
                 <tr>
-                    <th class="py-2 px-4 border-b"></th>
+                    <th class="border-b"></th>
                     <th class="py-2 px-4 border-b">Godzina</th>
                     <th class="py-2 px-4 border-b">Blok</th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="bg-orange-200">
-                    <td class="py-2 px-4 border-b border-l" rowspan="5">
-                        <div class="text-xl inline-block transform origin-top-left -rotate-90">Wtorek</div>
+                    <td class="pt-6 pl-3 border-b border-l" rowspan="5">
+                        <div class="text-2xl inline-block transform origin-top-left -rotate-90">Wtorek</div>
                     </td>
-                    <td class="py-2 px-4 border-b" rowspan="5">
+                    <td class="py-2 px-4 text-lg border-b" rowspan="5">
                         <div>Movement</div>
                         <div>18:45-20:15</div>
                     </td>
@@ -36,10 +35,10 @@
                     <td class="py-2 px-4 border-b border-r">Relaks</td>
                 </tr>
                 <tr class="bg-green-200">
-                    <td class="py-2 px-4 border-b border-l" rowspan="8">
-                        <div class="text-xl inline-block transform origin-top-left -rotate-90">Czwartek</div>
+                    <td class="pt-6 pl-3 border-b border-l" rowspan="8">
+                        <div class="text-2xl inline-block transform origin-top-left -rotate-90">Czwartek</div>
                     </td>
-                    <td class="py-2 px-4 border-b" rowspan="2">
+                    <td class="py-2 px-4 text-lg  border-b" rowspan="2">
                         <div>Handstand</div>
                         <div>17:30-18:30</div>
                     </td>
@@ -49,7 +48,7 @@
                     <td class="py-2 px-4 border-b border-r">Praktyka</td>
                 </tr>
                 <tr class="bg-green-200">
-                    <td class="py-2 px-4 border-b" rowspan="6">
+                    <td class="py-2 px-4 text-lg border-b" rowspan="6">
                         <div>Movement</div>
                         <div>18:45-20:15</div>
                     </td>
@@ -73,7 +72,7 @@
             </tbody>
         </table>
 
-        <div class="text-lg">Plan na: 3-4.2025</div>
+        <div class="mt-2 text-lg">Plan na: 3-4.2025</div>
 
         <div class="location p-10">
             <div class="flex items-center space-x-4">
