@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col justify-center items-center p-8">
-        <div class="text-lg">Plan na: 3-4.2025</div>
+
 
         <table class=" bg-white">
             <thead>
@@ -25,7 +25,7 @@
                     <td class="py-2 px-4 border-b border-r">Nogi - dynamika</td>
                 </tr>
                 <tr class="bg-orange-200">
-                    <td class="py-2 px-4 border-b border-r">Flow</td>
+                    <td class="py-2 px-4 border-b border-r">Lokomocje</td>
                 </tr>
                 <tr class="bg-orange-200">
                     <td class="py-2 px-4 border-b border-r">Ringi</td>
@@ -54,7 +54,7 @@
                     <td class="py-2 px-4 border-b border-r">Rozgrzewka</td>
                 </tr>
                 <tr class="bg-green-200">
-                    <td class="py-2 px-4 border-b border-r">Lokomocje</td>
+                    <td class="py-2 px-4 border-b border-r">Sekwencje</td>
                 </tr>
                 <tr class="bg-green-200">
                     <td class="py-2 px-4 border-b border-r">Improwizacja</td>
@@ -71,6 +71,7 @@
             </tbody>
         </table>
 
+        <div class="text-lg">Plan na: 3-4.2025</div>
 
         <div class="location p-10">
             <div class="flex items-center space-x-4">

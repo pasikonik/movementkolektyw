@@ -26,7 +26,7 @@
 
 <style scoped>
 .wrapper {
-    background: url('/photo-1.jpg') no-repeat center/cover;
+    background: url('/tlo.jpg') no-repeat center/cover;
     min-height: calc(100vh - 82px);
 }
 </style>
