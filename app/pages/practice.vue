@@ -1,6 +1,8 @@
 <template>
     <div class="flex flex-col justify-center items-center p-8">
 
+        <h1 class="text-4xl font-bold text-center mb-8">Zajęcia</h1>
+
 
         <table class=" bg-white">
             <thead>
