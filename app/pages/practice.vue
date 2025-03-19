@@ -13,7 +13,7 @@
             </thead>
             <tbody>
                 <tr class="bg-orange-200">
-                    <td class="pt-6 pl-3 border-b border-l" rowspan="5">
+                    <td class="pt-12 pl-3 border-b border-l" rowspan="5">
                         <div class="text-2xl inline-block transform origin-top-left -rotate-90">Wtorek</div>
                     </td>
                     <td class="py-2 px-4 text-lg border-b" rowspan="5">

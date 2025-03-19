@@ -1,7 +1,7 @@
 <template>
-    <UContainer class="p-7 text-center">
-        <section class="max-w-3xl mx-auto py-12 px-4">
-            <h1 class="text-4xl font-bold text-center mb-8">Nasza Misja</h1>
+    <UContainer class="text-center">
+        <section class="max-w-3xl mx-auto pt-12 px-4">
+            <h1 class="text-5xl font-bold text-center mb-8">Nasza Misja</h1>
 
             <div class="flex flex-col md:flex-row items-center mb-12">
                 <img src="/teamwork.png" alt="Równość i współpraca" class="w-24 h-24 mx-auto md:mx-0 md:mr-6">
@@ -30,13 +30,13 @@
                     dołączyć i wspólnie eksplorować ruch.</p>
             </div>
 
-            <p class="text-xl font-semibold text-center mt-10 px-18">
+            <p class="text-xl font-semibold text-center mt-10 px-0 md:px-18">
                 Dołącz do nas –
                 współtwórzmy razem społeczność, w której
                 każdy jest mile widziany! 💙
             </p>
 
-            <img class="pt-8" src="/Body-trans.png">
+            <img class="mx-auto" src="/body-trans-mini.png">
         </section>
     </UContainer>
 </template>

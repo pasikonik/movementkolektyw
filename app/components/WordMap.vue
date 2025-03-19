@@ -25,7 +25,6 @@ const props = defineProps({
     words: {
         type: Array,
         default: () => ([
-            { text: "Movement", size: 60 },
             { text: "Gra", size: 25 },
             { text: "Ruch", size: 40 },
             { text: "Siła", size: 23 },
@@ -40,6 +39,7 @@ const props = defineProps({
             { text: "Qigong", size: 32 },
             { text: "Zmysły", size: 22 },
             { text: "Parkour", size: 25 },
+            { text: "Movement", size: 60 },
             { text: "Płynność", size: 41 },
             { text: "Zwinność", size: 24 },
             { text: "Kontrola", size: 7 },
@@ -118,8 +118,20 @@ function recalculate() {
 }
 
 function getColor(text) {
-    const colors = ['#4CAF50', '#FF9800', '#2196F3', '#9C27B0', '#E91E63'];
-    // const colors = ['#264653', '#2a9d8f', '#e9c46a', '#f4a261', '#e76f51']
+    const colors = [
+        "#659287", 
+        "#b6c1ca", 
+        "#6d8f43", 
+        "#bfa143", 
+        "#91899b", 
+        "#b0a079", 
+        "#eed5a3", 
+        "#5b506f", 
+        "#305a9b", 
+        "#9cb2ca",
+        "#a0b395", 
+        "#686C59", 
+    ]
     let hash = 0;
     for (let i = 0; i < text.length; i++) {
         hash = text.charCodeAt(i) + ((hash << 5) - hash);

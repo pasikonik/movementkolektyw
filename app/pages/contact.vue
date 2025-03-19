@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-center items-center">
-        <div class="max-w-sm mx-auto py-12 px-10 bg-white rounded-lg border border-gray-200">
+    <div class="flex justify-center items-center h-fit mt-8">
+        <div class="max-w-sm mx-auto h-full py-12 px-10 bg-white rounded-lg border border-gray-200">
             <div class="space-y-4 mb-8">
                 <div class="flex items-center space-x-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" viewBox="0 0 24 24"
