@@ -1,6 +1,6 @@
 <template>
     <section
-        class="wrapper flex flex-col md:flex-row bg-[url(/tlo.jpg)] bg-no-repeat bg-[position:55%_50%] bg-cover md:bg-[position:50%_25%]">
+        class="wrapper flex flex-col md:flex-row bg-[url(/tlo.jpg)] bg-no-repeat md:bg-cover md:bg-[position:50%_25%]">
         <div class="md:w-1/2" />
         <div class="md:w-1/2 pt-20 flex flex-col px-4 md:px-56 text-center text-white">
             <h1 class="text-3xl md:text-5xl font-bold mb-6 md:mb-10">
