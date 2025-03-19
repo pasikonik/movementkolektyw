@@ -12,61 +12,61 @@
                 </tr>
             </thead>
             <tbody>
-                <tr class="bg-orange-200">
+                <tr class="bg-orange-100">
                     <td class="pt-12 pl-3 border-b border-l" rowspan="5">
-                        <div class="text-2xl inline-block transform origin-top-left -rotate-90">Wtorek</div>
+                        <div class="text-2xl inline-block transform origin-top-left -rotate-45">Wtorek</div>
                     </td>
-                    <td class="py-2 px-4 text-lg border-b" rowspan="5">
-                        <div>Movement</div>
+                    <td class="py-2 px-4 text-lg border text-center" rowspan="5">
+                        <div class="uppercase font-semibold">Movement</div>
                         <div>18:45-20:15</div>
                     </td>
                     <td class="py-2 px-4 border-b border-r">Rozgrzewka</td>
                 </tr>
-                <tr class="bg-orange-200">
+                <tr class="bg-orange-100">
                     <td class="py-2 px-4 border-b border-r">Nogi - dynamika</td>
                 </tr>
-                <tr class="bg-orange-200">
+                <tr class="bg-orange-100">
                     <td class="py-2 px-4 border-b border-r">Lokomocje</td>
                 </tr>
-                <tr class="bg-orange-200">
+                <tr class="bg-orange-100">
                     <td class="py-2 px-4 border-b border-r">Ringi</td>
                 </tr>
-                <tr class="bg-orange-200">
+                <tr class="bg-orange-100">
                     <td class="py-2 px-4 border-b border-r">Relaks</td>
                 </tr>
-                <tr class="bg-green-200">
+                <tr class="bg-green-100">
                     <td class="pt-6 pl-3 border-b border-l" rowspan="8">
-                        <div class="text-2xl inline-block transform origin-top-left -rotate-90">Czwartek</div>
+                        <div class="text-2xl inline-block transform origin-top-left -rotate-45">Czwartek</div>
                     </td>
-                    <td class="py-2 px-4 text-lg  border-b" rowspan="2">
-                        <div>Handstand</div>
+                    <td class="py-2 px-4 text-lg border text-center" rowspan="2">
+                        <div class="uppercase font-semibold">Handstand</div>
                         <div>17:30-18:30</div>
                     </td>
                     <td class="py-2 px-4 border-b border-r">Rozgrzewka</td>
                 </tr>
-                <tr class="bg-green-200">
+                <tr class="bg-green-100">
                     <td class="py-2 px-4 border-b border-r">Praktyka</td>
                 </tr>
-                <tr class="bg-green-200">
-                    <td class="py-2 px-4 text-lg border-b" rowspan="6">
-                        <div>Movement</div>
+                <tr class="bg-green-100">
+                    <td class="py-2 px-4 text-lg border text-center" rowspan="6">
+                        <div class="uppercase font-semibold">Movement</div>
                         <div>18:45-20:15</div>
                     </td>
                     <td class="py-2 px-4 border-b border-r">Rozgrzewka</td>
                 </tr>
-                <tr class="bg-green-200">
+                <tr class="bg-green-100">
                     <td class="py-2 px-4 border-b border-r">Sekwencje</td>
                 </tr>
-                <tr class="bg-green-200">
+                <tr class="bg-green-100">
                     <td class="py-2 px-4 border-b border-r">Improwizacja</td>
                 </tr>
-                <tr class="bg-green-200">
+                <tr class="bg-green-100">
                     <td class="py-2 px-4 border-b border-r">Ręce - siła</td>
                 </tr>
-                <tr class="bg-green-200">
+                <tr class="bg-green-100">
                     <td class="py-2 px-4 border-b border-r">Mobility</td>
                 </tr>
-                <tr class="bg-green-200">
+                <tr class="bg-green-100">
                     <td class="py-2 px-4 border-b border-r">Relaks</td>
                 </tr>
             </tbody>
@@ -76,13 +76,13 @@
 
         <div class="location p-10">
             <div class="flex items-center space-x-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" viewBox="0 0 24 24" fill="none"
+                <svg xmlns="http://www.w3.org/1000/svg" class="h-6 w-6 text-green-500" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
                     <circle cx="12" cy="10" r="3" />
                 </svg>
                 <a href="https://maps.app.goo.gl/rdUvGnu2DjSosHtv7" target="_blank"
-                    class="text-gray-700 font-medium hover:text-green-600 transition duration-200">
+                    class="text-gray-700 font-medium hover:text-green-600 transition duration-100">
                     ul. Wielka 19/8 <br> 61-775 Poznań, Polska
                 </a>
             </div>

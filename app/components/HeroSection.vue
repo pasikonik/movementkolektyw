@@ -1,7 +1,8 @@
 <template>
-    <section class="wrapper flex flex-col md:flex-row">
+    <section
+        class="wrapper flex flex-col md:flex-row bg-[url(/tlo.jpg)] bg-no-repeat bg-[position:55%_50%] bg-cover md:bg-[position:50%_25%]">
         <div class="md:w-1/2" />
-        <div class="md:w-1/2 pt-20 flex flex-col md:px-56 text-center text-white">
+        <div class="md:w-1/2 pt-20 flex flex-col px-4 md:px-56 text-center text-white">
             <h1 class="text-3xl md:text-5xl font-bold mb-6 md:mb-10">
                 Odkryj pełnię ruchu.<br>
                 Przekraczaj granice.
@@ -23,16 +24,6 @@
 
 <style scoped>
 .wrapper {
-    background: url('/tlo.jpg') no-repeat;
-    background-position: 0 20%;
-    background-size: cover;
     min-height: calc(100vh - 82px);
-}
-
-@media (width >= 768px) {
-    .wrapper {
-        background-position: top;
-        background-color: aquamarine;
-    }
 }
 </style>
