@@ -37,27 +37,26 @@ const words = [
     { text: "Qigong", size: 32 },
     { text: "Zmysły", size: 22 },
     { text: "Parkour", size: 25 },
-    { text: "Movement", size: 60 },
-    { text: "Płynność", size: 41 },
+    { text: "Płynność", size: 32 },
     { text: "Zwinność", size: 24 },
     { text: "Kontrola", size: 7 },
     { text: "Elastyczność", size: 31 },
-    { text: "Intuicja", size: 6 },
-    { text: "Dynamika", size: 38 },
+    { text: "Intuicja", size: 23 },
+    { text: "Dynamika", size: 32 },
     { text: "Capoeira", size: 25 },
     { text: "Precyzja", size: 11 },
     { text: "Mobilność", size: 14 },
-    { text: "Równowaga", size: 9 },
+    { text: "Równowaga", size: 26 },
     { text: "Adaptacja", size: 26 },
     { text: "Percepcja", size: 13 },
-    { text: "Świadomość", size: 10 },
     { text: "Integracja", size: 23 },
     { text: "Interakcja", size: 14 },
     { text: "Gimnastyka", size: 25 },
     { text: "Przestrzeń", size: 12 },
     { text: "Połączenie", size: 17 },
-    { text: "Koordynacja", size: 42 },
+    { text: "Koordynacja", size: 36 },
     { text: "Eksploracja", size: 32 },
+    { text: "Movement", size: 45 },
     { text: "Naturalność", size: 8 },
     { text: "Animal Movement", size: 15 },
     { text: "Kalistenika", size: 10 },
@@ -65,10 +64,10 @@ const words = [
     { text: "Sztuki Walki", size: 24 },
     { text: "Elastyczność", size: 16 },
     { text: "Organiczność", size: 18 },
-    { text: "Układ Nerwowy", size: 19 },
+    { text: "Układ Nerwowy", size: 15 },
     { text: "Spontaniczność", size: 19 },
     { text: "Eksploracja Ciała", size: 26 },
-    { text: "Siła Funkcjonalna", size: 8 },
+    { text: "Siła Funkcjonalna", size: 13 },
     { text: "Eksperymentowanie", size: 17 },
     { text: "Miękka Akrobatyka", size: 26 },
     { text: "Improwizacja", size: 13 },
@@ -79,7 +78,7 @@ const { width: windowWidth } = useWindowSize()
 
 const width = ref(800)
 const height = ref(600)
-const translateSvg = ref("translate(400, 300)")
+const translateSvg = ref("translate(0, 0)")
 
 onMounted(() => {
     if (windowWidth.value < 768) {
@@ -87,9 +86,9 @@ onMounted(() => {
         width.value = 300
         height.value = 800
     } else {
-        // Dla desktopów ustawiamy orientację poziomą
+        translateSvg.value = "translate(400, 200)"
         width.value = 800
-        height.value = 600
+        height.value = 400
     }
 
     calculateLayout()
@@ -133,18 +132,18 @@ function recalculate() {
 
 function getColor(text) {
     const colors = [
-        "#659287",
-        "#b6c1ca",
         "#6d8f43",
-        "#bfa143",
+        "#b6c1ca",
         "#91899b",
         "#b0a079",
+        "#659287",
+        "#bfa143",
         "#eed5a3",
         "#5b506f",
-        "#305a9b",
         "#9cb2ca",
-        "#a0b395",
+        "#305a9b",
         "#686C59",
+        "#a0b395",
     ]
     let hash = 0;
     for (let i = 0; i < text.length; i++) {

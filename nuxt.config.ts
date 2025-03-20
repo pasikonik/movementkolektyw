@@ -10,12 +10,14 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxt/test-utils',
+    '@nuxtjs/color-mode',
     '@nuxtjs/stylelint-module',
     'nuxt-gtag'
   ],
 
   colorMode: {
-    preference: 'light'
+    preference: 'light',
+    fallback: 'light',
   },
 
   gtag: {
