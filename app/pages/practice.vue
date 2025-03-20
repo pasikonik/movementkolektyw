@@ -64,7 +64,7 @@
                     <td class="py-2 px-4 border-b border-r">Ręce - siła</td>
                 </tr>
                 <tr class="bg-green-100">
-                    <td class="py-2 px-4 border-b border-r">Mobility</td>
+                    <td class="py-2 px-4 border-b border-r">Mobilność</td>
                 </tr>
                 <tr class="bg-green-100">
                     <td class="py-2 px-4 border-b border-r">Relaks</td>
