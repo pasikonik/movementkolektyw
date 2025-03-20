@@ -16,8 +16,4 @@ useHead({
 html {
   color-scheme: light;
 }
-
-html.dark {
-  display: none;
-}
 </style>
