@@ -13,7 +13,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="pt-30 pl-3 bg-orange-500 border-b border-l" rowspan="5">
+                    <td class="pt-30 pl-3 bg-orange-400 border-b border-l" rowspan="5">
                         <div
                             class="text-2xl inline-block transform origin-top-left -rotate-90 w-full h-full flex items-center justify-center uppercase">
                             Wtorek</div>
