@@ -1,8 +1,8 @@
 <template>
     <section
-        class="wrapper flex flex-col md:flex-row bg-[url(/tlo.jpg)] bg-no-repeat md:bg-cover md:bg-[position:50%_25%]">
+        class="wrapper h-full flex flex-col md:flex-row bg-[url('/sm-tlo.jpg')] sm:bg-[url('/tlo.jpg')] bg-no-repeat bg-cover md:bg-[position:50%_25%]">
         <div class="md:w-1/2" />
-        <div class="md:w-1/2 pt-20 flex flex-col px-4 md:px-56 text-center text-white">
+        <div class="md:w-1/2 h-full pt-20 flex flex-col px-4 md:px-56 text-center text-white">
             <h1 class="text-3xl md:text-5xl font-bold mb-6 md:mb-10">
                 Odkryj pełnię ruchu.<br>
                 Przekraczaj granice.
@@ -24,6 +24,6 @@
 
 <style scoped>
 .wrapper {
-    min-height: calc(100vh - 82px);
+    height: calc(100vh - 82px);
 }
 </style>
