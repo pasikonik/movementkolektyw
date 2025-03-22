@@ -101,16 +101,16 @@
 <style scoped>
 td:first-child,
 th:first-child {
-    width: 45px;
+    width: 40px;
 }
 
 td:nth-child(even),
 th:nth-child(even) {
-    width: 140px;
+    width: 160px;
 }
 
 td:last-child,
 th:last-child {
-    width: 120px;
+    width: 110px;
 }
 </style>
