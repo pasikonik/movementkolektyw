@@ -11,10 +11,11 @@ export default defineAppConfig({
         // color: 'neutral'
       }
     },
-    // navigationMenu: {
-    //   slots: {
-    //     label: 'font-bold text-xl text-blue-500'
-    //   }
-    // }
+    navigationMenu: {
+      slots: {
+        link: 'navbar-link text-lg',
+        linkLeadingIcon: 'size-6',
+      }
+    }
   }
 })

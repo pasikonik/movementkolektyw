@@ -77,3 +77,10 @@ const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
 </script>
+
+
+<style>
+.navbar-link {
+  padding: 10px 18px;
+}
+</style>
