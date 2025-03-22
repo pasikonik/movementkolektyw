@@ -3,6 +3,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: 'app',
 
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ]
+    }
+  },
+
   modules: [
     '@nuxt/ui',
     '@nuxt/eslint',
