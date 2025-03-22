@@ -3,7 +3,7 @@
 
         <h1 class="text-4xl font-bold text-center mb-8">Zajęcia</h1>
 
-        <table class="bg-white table-fixed w-full md:w-1/3">
+        <table class="bg-white table-fixed w-full md:w-md">
             <thead>
                 <tr>
                     <th class="border-b"></th>

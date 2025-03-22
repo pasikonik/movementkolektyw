@@ -15,8 +15,7 @@
         <UBadge class="py-1" color="neutral" variant="outline">non-profit</UBadge>
 
         <!-- Overlay -->
-        <div v-if="isMenuOpen" class="fixed inset-0 z-10"
-          @click="toggleMenu"></div>
+        <div v-if="isMenuOpen" class="fixed inset-0 z-10" @click="toggleMenu" />
 
         <!-- Menu -->
         <div v-show="isMenuOpen" class="mobile-menu absolute top-18 left-0 w-full bg-white shadow-lg z-10 
@@ -44,11 +43,7 @@
 
         <UBadge class="text-md py-1" color="neutral" variant="outline">non-profit</UBadge>
 
-        <UNavigationMenu class="!text-3xl" color="neutral" :items="items">
-          <template #components-label>
-            <UBadge label="44" variant="subtle" size="sm" />
-          </template>
-        </UNavigationMenu>
+        <UNavigationMenu :items="items" />
       </div>
     </UContainer>
   </div>
