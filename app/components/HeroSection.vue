@@ -8,9 +8,9 @@
                 Przekraczaj granice.
             </h1>
             <p class="text-base md:text-lg mb-6 md:mb-8 px-4 md:px-0 font-semibold md:font-normal">
-                Jesteśmy społecznością ludzi którzy ćwiczą poprzez eksplorują poprzez odkrywanie możliwości swojego
-                ciała na nowo. Nie trzymamy się schematów, bo ciało jest stworzone do ruchu w każdej formie.
-                Skaczemy, przemieszczamy, balansujemy, testujemy swoje możliwości i uczymy się od siebie nawzajem.
+                Jesteśmy społecznością ludzi, którzy eksplorują i odkrywają możliwości swojego ciała na nowo. Nie
+                trzymamy się schematów, bo ciało jest stworzone do ruchu w każdej formie. Skaczemy, przemieszczamy się,
+                balansujemy, testujemy swoje możliwości i uczymy się od siebie nawzajem.
             </p>
             <p class="text-base md:text-lg mb-8 md:mb-12 font-semibold md:font-normal">
                 Przyjdź do nas i zobacz, jak daleko może zaprowadzić Cię ciało, gdy dasz mu przestrzeń do działania.
