@@ -70,7 +70,7 @@ const events = ref([
     {
         date: new Date('2024-11-16'),
         title: 'Floorwork & Partnerowanie',
-        presenter: 'Katarzyną Paluch',
+        presenter: 'Katarzyna Paluch',
         description: '',
         color: 'purple',
         type: 'warsztat',
