@@ -17,21 +17,22 @@
         <!-- Overlay -->
         <div v-if="isMenuOpen" class="fixed inset-0 z-10" @click="toggleMenu" />
 
-        <!-- Menu -->
-        <div v-show="isMenuOpen" class="mobile-menu absolute top-18 left-0 w-full bg-white shadow-lg z-10 
-           transition-all duration-500 ease-in-out transform origin-top 
-           scale-y-100 opacity-100" :class="{'scale-y-0 opacity-0': !isMenuOpen}">
-          <ul class="flex flex-col items-center p-4">
-            <li v-for="(item, index) in items[0]" :key="index" class="py-2">
-              <NuxtLink :to="item.to"
-                class="flex items-center text-xl transition-transform duration-300 ease-in-out hover:scale-105"
-                @click="toggleMenu">
-                <UIcon :name="item.icon" class="size-7 mr-2 transition-transform duration-300 hover:rotate-12" />
-                {{ item.label }}
-              </NuxtLink>
-            </li>
-          </ul>
-        </div>
+        <transition enter-active-class="transition duration-300 ease-out" enter-from-class="opacity-0 -translate-y-4"
+          enter-to-class="opacity-100 translate-y-0" leave-active-class="transition duration-200 ease-in"
+          leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 -translate-y-4">
+          <div v-if="isMenuOpen" class="mobile-menu absolute top-18 left-0 w-full bg-white shadow-lg z-10 transform">
+            <ul class="flex flex-col items-center p-4">
+              <li v-for="(item, index) in items[0]" :key="index" class="py-2">
+                <NuxtLink :to="item.to"
+                  class="flex items-center text-xl transition-transform duration-300 ease-in-out hover:scale-105"
+                  @click="toggleMenu">
+                  <UIcon :name="item.icon" class="size-7 mr-2 transition-transform duration-300 hover:rotate-12" />
+                  {{ item.label }}
+                </NuxtLink>
+              </li>
+            </ul>
+          </div>
+        </transition>
       </div>
 
 
