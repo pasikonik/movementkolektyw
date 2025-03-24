@@ -64,6 +64,11 @@ const items = ref([
       to: '/practice'
     },
     {
+      label: 'Wydarzenia',
+      icon: 'i-lucide-calendar-days',
+      to: '/events'
+    },
+    {
       label: 'Kontakt',
       icon: 'i-lucide-circle-user-round',
       to: '/contact',
@@ -81,6 +86,6 @@ const toggleMenu = () => {
 
 <style>
 .navbar-link {
-  padding: 10px 18px;
+  padding: 10px 14px;
 }
 </style>
