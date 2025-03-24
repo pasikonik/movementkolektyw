@@ -10,22 +10,22 @@ Informational page about movement community.
 | **Technology**  | **Version** |**Notes**                                               |
 |-----------------|-------------|---------------------------------------------------------|
 | **Node.js**     | 22.14.0     | Recommended stable LTS version 22.x                     |
-| **Nuxt 3**      | 3.16.0      | Primary application framework (SSR/SPA)                 |
-| **@nuxt/ui**    | 3.0.0       | Nuxt UI component library                               |
+| **Nuxt 3**      | 3.16.1      | Primary application framework (SSR/SPA)                 |
+| **@nuxt/ui**    | 3.0.1       | Nuxt UI component library                               |
 | **Tailwind CSS**| 4.0.14      | CSS framework for styling and flexible layouts          |
 | **Vue**         | 3.5.13      | Core framework for building user interfaces             |
-| **pnpm**        | 10.6.3      | Fast and efficient package manager for Node.js projects |
-| **TypeScript**  | 5.8.2       | TypeScript is a statically-typed superset of JavaScript.|  
+| **pnpm**        | 10.6.5      | Fast and efficient package manager for Node.js projects |  
 
 ## 🚩 Roadmap
 
 - [x] Layout:
     - [x] Basic Page Structure
-    - [ ] Header Menu
+    - [x] Header Menu
 - [x] Home Page:
     - [x] Hero Section
     - [x] Topics Map
 - [x] Contact Page
 - [x] Practice page
+- [x] Adjust to mobile
+- [x] Add Events page
 - [ ] Use Nuxt Image (bug)
-- [ ] Adjust to mobile
