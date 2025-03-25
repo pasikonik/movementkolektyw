@@ -32,7 +32,6 @@ const events = ref([
         title: 'Ciężar, pęd i przestrzeń',
         presenter: 'Tomasz Koszan',
         description: '',
-        color: 'orage',
         type: 'warsztat',
     },
     {
@@ -40,7 +39,6 @@ const events = ref([
         title: '4 Filary Ruchu',
         presenter: 'Filip Droszcz',
         description: '',
-        color: 'red',
         type: 'warsztat',
     },
     {
@@ -48,7 +46,6 @@ const events = ref([
         title: 'Primal Therapy',
         presenter: 'Maciej Borucz',
         description: '',
-        color: 'green',
         type: 'warsztat',
     },
     {
@@ -56,7 +53,6 @@ const events = ref([
         title: 'Soft Acrobatics',
         presenter: 'Lena Skrzypczak',
         description: '',
-        color: 'yellow',
         type: 'warsztat',
     },
     {
@@ -64,7 +60,6 @@ const events = ref([
         title: 'Piknik Ruchowy Cytadela',
         presenter: 'Movement Kolektyw',
         description: '',
-        color: 'blue',
         type: 'outdoor'
     },
     {
@@ -72,7 +67,6 @@ const events = ref([
         title: 'Floorwork & Partnerowanie',
         presenter: 'Katarzyna Paluch',
         description: '',
-        color: 'purple',
         type: 'warsztat',
     },
 ]);
@@ -80,7 +74,7 @@ const events = ref([
 const currentDate = new Date();
 
 const sortedEvents = computed(() => {
-    return events.value.sort((a, b) => b.date.getTime() - a.date.getTime());
+    return [...events.value].sort((a, b) => b.date.getTime() - a.date.getTime());
 });
 
 const futureEvents = computed(() => {
@@ -98,19 +92,19 @@ const pastEvents = computed(() => {
         <ol class="relative border-s border-gray-200">
             <template v-if="futureEvents.length > 0">
                 <li v-for="event in futureEvents" :key="event.title" class="mb-10 ms-4">
-                    <div class="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5  bg-orange-300">
-                    </div>
+                    <div class="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5  bg-orange-300" />
                     <time class="mb-1 text-sm font-normal leading-none text-gray-400">
                         {{ format(event.date, 'd MMMM y', { locale: pl }) }}
                     </time>
                     <div class="flex items-center gap-2 mb-1">
                         <h3 class="text-lg font-semibold text-gray-900">{{ event.title }}</h3>
-                        <span class="text-xs font-medium px-2 py-1 rounded-sm" :style="getBadgeStyle(event.type)">
+                        <span class="text-xs font-semibold tracking-wider px-2 py-1 rounded-sm"
+                            :style="getBadgeStyle(event.type)">
                             {{ event.type }}
                         </span>
                     </div>
                     <p class="mb-4 text-base font-normal text-gray-500">
-                        Prowadzący: <span class="font-medium">{{ event.presenter }}</span><br>
+                        Prowadzący: <span class="font-semibold">{{ event.presenter }}</span><br>
                         {{ event.description }}
                     </p>
                     <UButton v-if="event.link" :href="event.link" target="_blank" color="primary" size="sm">
@@ -118,9 +112,9 @@ const pastEvents = computed(() => {
                         <UIcon name="heroicons-solid:arrow-right" class="w-4 h-4 ms-2 rtl:rotate-180" />
                     </UButton>
                 </li>
-                <li v-if="pastEvents.length > 0" class="relative ms-4">
-                    <div class="absolute w-4 h-px bg-gray-300 top-1/2 left-0 -translate-x-[16px]"></div>
-                    <div class="text-left my-8">
+                <li v-if="pastEvents.length > 0" class="relative ms-6">
+                    <div class="absolute w-6 h-px bg-gray-200 top-1/2 left-0 -translate-x-[24px]" />
+                    <div class="mb-8">
                         <span
                             class="inline-block px-4 py-2 text-sm font-semibold text-gray-500 bg-gray-100 rounded-full">
                             Teraz
@@ -130,18 +124,19 @@ const pastEvents = computed(() => {
             </template>
             <template v-if="pastEvents.length > 0">
                 <li v-for="event in pastEvents" :key="event.title" class="mb-10 ms-4">
-                    <div class="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-green-500 "></div>
+                    <div class="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 bg-green-500 " />
                     <time class="mb-1 text-sm font-normal leading-none text-gray-400 ">
                         {{ format(event.date, 'd MMMM y', { locale: pl }) }}
                     </time>
                     <div class="flex items-center gap-2 mb-1">
                         <h3 class="text-lg font-semibold text-gray-900">{{ event.title }}</h3>
-                        <span class="text-xs font-medium px-2 py-1 rounded-sm" :style="getBadgeStyle(event.type)">
+                        <span class="text-xs font-semibold tracking-wider px-2 py-1 rounded-sm"
+                            :style="getBadgeStyle(event.type)">
                             {{ event.type }}
                         </span>
                     </div>
                     <p class="mb-4 text-base font-normal text-gray-500">
-                        Prowadzący: <span class="font-medium">{{ event.presenter }}</span><br>
+                        Prowadzący: <span class="font-semibold">{{ event.presenter }}</span><br>
                         {{ event.description }}
                     </p>
                     <UButton v-if="event.link" :href="event.link" target="_blank" color="gray" size="sm">
@@ -158,7 +153,3 @@ const pastEvents = computed(() => {
         </ol>
     </UContainer>
 </template>
-
-<style scoped>
-/* Dodatkowe style CSS jeśli potrzebujesz */
-</style>

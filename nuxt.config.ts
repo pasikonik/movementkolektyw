@@ -17,7 +17,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxt/test-utils',
     '@nuxtjs/stylelint-module',
     'nuxt-gtag'
   ],

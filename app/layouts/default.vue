@@ -1,13 +1,13 @@
 <template>
-  <ULayout class="flex flex-col h-full">
+  <div class="flex flex-col h-full">
     <Header />
 
-      <main class="content">
-        <NuxtPage />
-      </main>
+    <main class="content">
+      <NuxtPage />
+    </main>
 
     <Footer />
-  </ULayout>
+  </div>
 </template>
 
 <script setup>
