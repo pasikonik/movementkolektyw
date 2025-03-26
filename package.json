@@ -17,10 +17,10 @@
     "@iconify-json/lucide": "^1.2.32",
     "@iconify-json/simple-icons": "^1.2.29",
     "@nuxt/fonts": "0.11.0",
-    "@nuxt/image": "1.9.0",
-    "@nuxt/scripts": "0.11.2",
+    "@nuxt/image": "^1.10.0",
+    "@nuxt/scripts": "0.11.5",
     "@nuxt/ui": "^3.0.1",
-    "@unhead/vue": "^2.0.0",
+    "@unhead/vue": "^2.0.2",
     "@vueuse/core": "^13.0.0",
     "d3-cloud": "^1.2.7",
     "date-fns": "^4.1.0",
@@ -31,10 +31,10 @@
     "@nuxt/eslint": "^1.2.0",
     "@nuxtjs/stylelint-module": "^5.2.1",
     "eslint": "^9.23.0",
-    "stylelint": "^16.16.0",
+    "stylelint": "^16.17.0",
     "stylelint-config-recommended-vue": "^1.6.0",
     "stylelint-config-standard": "^37.0.0",
     "typescript": "^5.8.2"
   },
-  "packageManager": "pnpm@10.6.5"
+  "packageManager": "pnpm@10.7.0"
 }
