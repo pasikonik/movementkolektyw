@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col justify-center items-center py-8 px-0">
 
-        <h1 class="text-4xl font-bold text-center mb-8">Zajęcia</h1>
+        <h1 class="text-4xl font-bold text-center mb-8">Treningi</h1>
 
         <table class="bg-white table-fixed w-full md:w-md">
             <thead>
@@ -30,7 +30,7 @@
                     <td class="py-2 px-4 border-b border-r text-sm">Lokomocje</td>
                 </tr>
                 <tr class="bg-orange-100">
-                    <td class="py-2 px-4 border-b border-r text-sm">Ringi</td>
+                    <td class="py-2 px-4 border-b border-r text-sm">Kółka gimanstyczne</td>
                 </tr>
                 <tr class="bg-orange-100">
                     <td class="py-2 px-4 border-b border-r text-sm">Relaks</td>
