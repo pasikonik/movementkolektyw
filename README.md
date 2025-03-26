@@ -14,7 +14,7 @@ Informational page about movement community.
 | **@nuxt/ui**    | 3.0.1       | Nuxt UI component library                               |
 | **Tailwind CSS**| 4.0.14      | CSS framework for styling and flexible layouts          |
 | **Vue**         | 3.5.13      | Core framework for building user interfaces             |
-| **pnpm**        | 10.6.5      | Fast and efficient package manager for Node.js projects |  
+| **pnpm**        | 10.7.0      | Fast and efficient package manager for Node.js projects |  
 
 ## 🚩 Roadmap
 
@@ -28,4 +28,4 @@ Informational page about movement community.
 - [x] Practice page
 - [x] Adjust to mobile
 - [x] Add Events page
-- [ ] Use Nuxt Image (bug)
+- [ ] Use Nuxt Image (buggy in nuxt 3.16)
