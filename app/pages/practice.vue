@@ -77,7 +77,7 @@
         </tr>
         <tr class="text-center">
           <td class="py-2 px-4 mt-2 font-md text-lg border" colspan="3">
-            Plan na: 3-4.2025
+            Plan na: maj-czerwiec 2025
           </td>
         </tr>
       </tbody>
