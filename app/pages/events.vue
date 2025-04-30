@@ -28,8 +28,8 @@ function getBadgeStyle(type) {
 
 const events = ref([
     {
-        date: new Date('2025-06-14'),
-        title: '[w fazie przygotowywania]',
+        date: new Date('2025-09-21'),
+        title: 'Miękkie Akrobacje - Wewnętrzne Trajektorie',
         presenter: 'Mikołaj Lira',
         description: '',
         type: 'warsztat',
