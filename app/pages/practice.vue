@@ -67,7 +67,7 @@
           <td class="py-2 px-4 border-b border-r text-sm">Ropeflow</td>
         </tr>
         <tr class="bg-green-100">
-          <td class="py-2 px-4 border-b border-r text-sm">Miekka akrobatyka</td>
+          <td class="py-2 px-4 border-b border-r text-sm">Miękka akrobatyka</td>
         </tr>
         <tr class="bg-green-100">
           <td class="py-2 px-4 border-b border-r text-sm">Improwizacja</td>
