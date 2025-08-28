@@ -12,7 +12,7 @@
       </thead>
       <tbody>
         <tr>
-          <td class="pt-30 pl-3 bg-orange-400 border-b border-l" rowspan="6">
+          <td class="pt-30 pl-3 bg-orange-400 border-b border-l" rowspan="5">
             <div
               class="text-2xl inline-block transform origin-[30%_5%] -rotate-90 w-full h-full uppercase"
             >
@@ -31,16 +31,13 @@
           </td>
         </tr>
         <tr class="bg-orange-100">
-          <td class="py-2 px-4 border-b border-r text-sm">Kije</td>
+          <td class="py-2 px-4 border-b border-r text-sm">Partering</td>
+        </tr>        
+        <tr class="bg-orange-100">
+          <td class="py-2 px-4 border-b border-r text-sm">Floorwork</td>
         </tr>
         <tr class="bg-orange-100">
-          <td class="py-2 px-4 border-b border-r text-sm">Lokomocje</td>
-        </tr>
-        <tr class="bg-orange-100">
-          <td class="py-2 px-4 border-b border-r text-sm">Improwizacja</td>
-        </tr>
-        <tr class="bg-orange-100">
-          <td class="py-2 px-4 border-b border-r text-sm">Siła</td>
+          <td class="py-2 px-4 border-b border-r text-sm">Skin the cat</td>
         </tr>
         <tr class="bg-orange-100">
           <td class="py-2 px-4 border-b border-r text-sm">Relaks</td>
@@ -60,24 +57,24 @@
             <div>18:45-20:15</div>
           </td>
           <td class="py-2 px-4 bg-green-100 border-b border-r text-sm">
-            Rozgrzewka
+            Ropeflow
           </td>
         </tr>
         <tr class="bg-green-100">
-          <td class="py-2 px-4 border-b border-r text-sm">Ropeflow</td>
+          <td class="py-2 px-4 border-b border-r text-sm">Rozgrzewka</td>
         </tr>
         <tr class="bg-green-100">
           <td class="py-2 px-4 border-b border-r text-sm">Miękka akrobatyka</td>
         </tr>
         <tr class="bg-green-100">
-          <td class="py-2 px-4 border-b border-r text-sm">Improwizacja</td>
+          <td class="py-2 px-4 border-b border-r text-sm">Mobilność i siła</td>
         </tr>
         <tr class="bg-green-100">
           <td class="py-2 px-4 border-b border-r text-sm">Relaks</td>
         </tr>
         <tr class="text-center">
           <td class="py-2 px-4 mt-2 font-md text-lg border" colspan="3">
-            Plan na: maj-czerwiec 2025
+            Plan na: wrzesień-październik 2025
           </td>
         </tr>
       </tbody>
