@@ -20,6 +20,7 @@
 <script setup>
 import { useWindowSize } from '@vueuse/core'
 import { ref, computed, onMounted } from 'vue'
+import { debounce } from '~/utils/debounce'
 import cloud from 'd3-cloud'
 
 const words = [
@@ -80,6 +81,7 @@ const { width: windowWidth } = useWindowSize()
 const width = ref(800)
 const height = ref(600)
 const translateSvg = ref("translate(0, 0)")
+const colorCache = new Map()
 
 onMounted(() => {
     if (windowWidth.value < 768) {
@@ -127,31 +129,28 @@ function calculateLayout() {
         .start()
 }
 
-function recalculate() {
-    calculateLayout()
-}
+const recalculate = debounce(() => {
+  calculateLayout();
+}, 300);
 
 function getColor(text) {
-    const colors = [
-        "#6d8f43",
-        "#b6c1ca",
-        "#91899b",
-        "#b0a079",
-        "#659287",
-        "#bfa143",
-        "#eed5a3",
-        "#5b506f",
-        "#9cb2ca",
-        "#305a9b",
-        "#686C59",
-        "#a0b395",
-    ]
-    let hash = 0;
-    for (let i = 0; i < text.length; i++) {
-        hash = text.charCodeAt(i) + ((hash << 5) - hash);
+    if (colorCache.has(text)) {
+        return colorCache.get(text)
     }
-    const index = Math.abs(hash) % colors.length;
-    return colors[index];
+
+    const colors = [
+        "#6d8f43", "#b6c1ca", "#91899b", "#b0a079", "#659287",
+        "#bfa143", "#eed5a3", "#5b506f", "#9cb2ca", "#305a9b",
+        "#686C59", "#a0b395",
+    ]
+    let hash = 0
+    for (let i = 0; i < text.length; i++) {
+        hash = text.charCodeAt(i) + ((hash << 5) - hash)
+    }
+    const index = Math.abs(hash) % colors.length
+    const color = colors[index]
+    colorCache.set(text, color)
+    return color
 }
 </script>
 
