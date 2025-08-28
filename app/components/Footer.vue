@@ -1,7 +1,7 @@
 <template>
   <div class="border-t border-gray-200 py-4 text-center">
     <div class="flex justify-center gap-4 my-2">
-      <a href="https://facebook.com/profile.php?id=61574152281731" target="_blank" rel="noopener noreferrer"
+      <a href="https://www.facebook.com/movementkolektyw/" target="_blank" rel="noopener noreferrer"
         class="inline-block">
         <UIcon name="fa-brands:facebook-square" alt="Facebook" class="w-6 h-6 inline-block" />
       </a>
