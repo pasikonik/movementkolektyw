@@ -79,12 +79,12 @@
                             </div>
                         </div>
                         <div class="grid grid-cols-2 sm:grid-cols-2 gap-3 md:gap-4">
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
+                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer group">
                                 <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Rozgrzewka</div>
                                 <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Przygotowanie</div>
                                 <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
+                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer group">
                                 <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Praktyka</div>
                                 <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Technika handstand</div>
                                 <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
