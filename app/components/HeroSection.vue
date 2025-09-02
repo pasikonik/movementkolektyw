@@ -2,7 +2,7 @@
     <section
         class="wrapper h-full flex flex-col md:flex-row bg-[url('/sm-tlo.jpg')] sm:bg-[url('/tlo.jpg')] bg-no-repeat bg-cover md:bg-[position:50%_25%]">
         <div class="md:w-1/2" />
-        <div class="md:w-1/2 h-full md:pt-12 flex flex-col px-4 lg:px-32 text-center text-white">
+        <div class="md:w-1/2 h-full pt-12 flex flex-col px-4 lg:px-32 text-center text-white">
             <h1 class="text-3xl md:text-4xl font-bold mb-6 md:mb-10">
                 Odkryj pełnię ruchu.<br>
                 Przekraczaj granice.
