@@ -2,144 +2,148 @@
   <div class="container mx-auto px-4 py-6 max-w-4xl">
     <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 md:mb-12 text-gray-800">Treningi</h1>
 
-       <!-- Plan treningów -->
-        <div class="space-y-6 md:space-y-8">
-
-            <!-- WTOREK -->
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 ease-in-out hover:scale-103">
+   <div class="max-w-6xl mx-auto px-4 py-8 md:py-16">
+        
+        <!-- WTOREK -->
+        <div class="mb-10 md:mb-16">
+            <div class="bg-white rounded-2xl overflow-hidden border-2 border-gray-200 session-card">
                 <!-- Nagłówek dnia -->
-                <div class="bg-gradient-to-r from-orange-500 via-orange-400 to-orange-300 text-white p-4 md:p-5 relative overflow-hidden">
-                    <h2 class="pl-2 text-xl md:text-2xl font-bold relative z-10 flex items-center">
-                        WTOREK
-                    </h2>
+                <div class="px-6 py-5 border-b-2 border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900">WTOREK</h2>
                 </div>
 
-                <div class="p-4 md:p-6">
-                    <!-- Sesja Movement -->
-                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-4 md:p-6 border border-orange-200 hover:border-orange-300 transition-all duration-300">
-                        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 md:mb-6">
-                            <h3 class="text-lg md:text-xl font-bold text-orange-800 mb-2 sm:mb-0 flex items-center">
-                                <span class="mr-2">🏃‍♂️</span>
-                                MOVEMENT
-                            </h3>
-                            <div class="bg-gradient-to-r from-orange-200 to-orange-300 text-orange-800 px-4 py-2 rounded-full text-sm md:text-base font-medium shadow-sm hover:shadow-md transition-shadow duration-300">
-                                18:45 - 20:15
+                <!-- Sesja Movement -->
+                <div class="p-6 md:p-8">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6">
+                        <div class="flex items-center gap-3 mb-3 sm:mb-0">
+                            <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
+                                <span class="text-xl">🏃‍♂️</span>
                             </div>
+                            <h3 class="text-xl md:text-2xl font-semibold text-gray-900">Movement</h3>
                         </div>
-                        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-4">
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-orange-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-orange-800 text-sm md:text-base group-hover:text-orange-600 transition-colors">Rozgrzewka</div>
-                                <div class="text-xs md:text-sm text-orange-600 mt-1 group-hover:text-orange-500 transition-colors">Start</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-orange-400 to-orange-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-orange-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-orange-800 text-sm md:text-base group-hover:text-orange-600 transition-colors">Partering</div>
-                                <div class="text-xs md:text-sm text-orange-600 mt-1 group-hover:text-orange-500 transition-colors">Technika</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-orange-400 to-orange-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-orange-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-orange-800 text-sm md:text-base group-hover:text-orange-600 transition-colors">Floorwork</div>
-                                <div class="text-xs md:text-sm text-orange-600 mt-1 group-hover:text-orange-500 transition-colors">Podłoga</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-orange-400 to-orange-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-orange-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-orange-800 text-sm md:text-base group-hover:text-orange-600 transition-colors">Skin the cat</div>
-                                <div class="text-xs md:text-sm text-orange-600 mt-1 group-hover:text-orange-500 transition-colors">Akrobatyka</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-orange-400 to-orange-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-orange-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-orange-800 text-sm md:text-base group-hover:text-orange-600 transition-colors">Relaks</div>
-                                <div class="text-xs md:text-sm text-orange-600 mt-1 group-hover:text-orange-500 transition-colors">Zakończenie</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-orange-400 to-orange-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
+                        <div class="inline-flex items-center gap-2 text-gray-600 font-medium">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>18:45 - 20:15</span>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- CZWARTEK -->
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300 ease-in-out hover:scale-103">
-                <!-- Nagłówek dnia -->
-                <div class="bg-gradient-to-r from-green-500 via-green-400 to-green-300 text-white p-4 md:p-5 relative overflow-hidden">
-                    <h2 class="pl-2 text-xl md:text-2xl font-bold relative z-10 flex items-center">
-                        CZWARTEK
-                    </h2>
-                </div>
-
-                <div class="p-4 md:p-6 space-y-4 md:space-y-6">
-                    <!-- Sesja Handstand -->
-                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-4 md:p-6 border border-green-200 hover:border-green-300 transition-all duration-300">
-                        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 md:mb-6">
-                            <h3 class="text-lg md:text-xl font-bold text-green-800 mb-2 sm:mb-0 flex items-center">
-                                <span class="mr-2">🤸‍♂️</span>
-                                HANDSTAND
-                            </h3>
-                            <div class="bg-gradient-to-r from-green-200 to-green-300 text-green-800 px-4 py-2 rounded-full text-sm md:text-base font-medium shadow-sm hover:shadow-md transition-shadow duration-300">
-                                17:30 - 18:30
-                            </div>
+                    
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Rozgrzewka</div>
+                            <div class="text-sm text-gray-500">Start</div>
                         </div>
-                        <div class="grid grid-cols-2 sm:grid-cols-2 gap-3 md:gap-4">
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Rozgrzewka</div>
-                                <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Przygotowanie</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Praktyka</div>
-                                <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Technika handstand</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Partering</div>
+                            <div class="text-sm text-gray-500">Technika</div>
                         </div>
-                    </div>
-
-                    <!-- Sesja Movement -->
-                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-4 md:p-6 border border-green-200 hover:border-green-300 transition-all duration-300">
-                        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 md:mb-6">
-                            <h3 class="text-lg md:text-xl font-bold text-green-800 mb-2 sm:mb-0 flex items-center">
-                                <span class="mr-2">🏃‍♂️</span>
-                                MOVEMENT
-                            </h3>
-                            <div class="bg-gradient-to-r from-green-200 to-green-300 text-green-800 px-4 py-2 rounded-full text-sm md:text-base font-medium shadow-sm hover:shadow-md transition-shadow duration-300">
-                                18:45 - 20:15
-                            </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Floorwork</div>
+                            <div class="text-sm text-gray-500">Podłoga</div>
                         </div>
-                        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-4">
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Ropeflow</div>
-                                <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Umiejętność</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Rozgrzewka</div>
-                                <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Przygotowanie</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Miękka akrobatyka</div>
-                                <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Umiejętność</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Mobilność i siła</div>
-                                <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Sprawność</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
-                            <div class="bg-white rounded-lg p-3 md:p-4 border border-green-300 hover:shadow-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer group">
-                                <div class="font-semibold text-green-800 text-sm md:text-base group-hover:text-green-600 transition-colors">Relaks</div>
-                                <div class="text-xs md:text-sm text-green-600 mt-1 group-hover:text-green-500 transition-colors">Zakończenie</div>
-                                <div class="w-full h-1 bg-gradient-to-r from-green-400 to-green-500 rounded-full mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                            </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Skin the cat</div>
+                            <div class="text-sm text-gray-500">Akrobatyka</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Relaks</div>
+                            <div class="text-sm text-gray-500">Zakończenie</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    <!-- Informacja o planie -->
-    <div class="mt-8 md:mt-12 text-center">
-      <div class="inline-block bg-white rounded-lg shadow-md px-4 md:px-6 py-2 md:py-3">
-        <div class="text-base md:text-lg font-semibold text-gray-800">Plan na: wrzesień-październik 2025</div>
-      </div>
+        <!-- CZWARTEK -->
+        <div class="mb-10">
+            <div class="bg-white rounded-2xl overflow-hidden border-2 border-gray-200 session-card">
+                <!-- Nagłówek dnia -->
+                <div class="px-6 py-5 border-b-2 border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900">CZWARTEK</h2>
+                </div>
+
+                <!-- Sesja Handstand -->
+                <div class="p-6 md:p-8 border-b-2 border-gray-200">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6">
+                        <div class="flex items-center gap-3 mb-3 sm:mb-0">
+                            <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                                <span class="text-xl">🤸‍♂️</span>
+                            </div>
+                            <h3 class="text-xl md:text-2xl font-semibold text-gray-900">Handstand</h3>
+                        </div>
+                        <div class="inline-flex items-center gap-2 text-gray-600 font-medium">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>17:30 - 18:30</span>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-3 md:gap-4">
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-orange-400 hover:bg-orange-50">
+                            <div class="font-semibold text-gray-900 mb-1">Rozgrzewka</div>
+                            <div class="text-sm text-gray-500">Przygotowanie</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-orange-400 hover:bg-orange-50">
+                            <div class="font-semibold text-gray-900 mb-1">Praktyka</div>
+                            <div class="text-sm text-gray-500">Technika handstand</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sesja Movement -->
+                <div class="p-6 md:p-8">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6">
+                        <div class="flex items-center gap-3 mb-3 sm:mb-0">
+                            <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
+                                <span class="text-xl">🏃‍♂️</span>
+                            </div>
+                            <h3 class="text-xl md:text-2xl font-semibold text-gray-900">Movement</h3>
+                        </div>
+                        <div class="inline-flex items-center gap-2 text-gray-600 font-medium">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <span>18:45 - 20:15</span>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Ropeflow</div>
+                            <div class="text-sm text-gray-500">Umiejętność</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Rozgrzewka</div>
+                            <div class="text-sm text-gray-500">Przygotowanie</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Miękka akrobatyka</div>
+                            <div class="text-sm text-gray-500">Umiejętność</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Mobilność i siła</div>
+                            <div class="text-sm text-gray-500">Sprawność</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
+                            <div class="font-semibold text-gray-900 mb-1">Relaks</div>
+                            <div class="text-sm text-gray-500">Zakończenie</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Informacja o planie -->
+        <div class="text-center mt-12">
+            <div class="inline-flex items-center gap-2 bg-white px-6 py-3 rounded-full border-2 border-gray-200 text-gray-700 font-medium">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                <span>Plan na: wrzesień-październik 2025</span>
+            </div>
+        </div>
     </div>
 
     <div class="p-10 flex flex-col items-center">

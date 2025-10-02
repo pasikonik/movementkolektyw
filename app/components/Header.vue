@@ -9,7 +9,7 @@
         </button>
 
         <NuxtLink to="/" class="w-2/3">
-          <img src="/name.png" alt="MOVEMENT KOLEKTYW">
+          <img src="/name.webp" alt="MOVEMENT KOLEKTYW">
         </NuxtLink>
 
         <UBadge class="py-1" color="neutral" variant="outline">non-profit</UBadge>
@@ -39,7 +39,7 @@
       <!-- Desktop -->
       <div class="h-full max-sm:hidden flex justify-between items-center">
         <NuxtLink to="/">
-          <img src="/name.png" alt="MOVEMENT KOLEKTYW">
+          <img src="/name.webp" alt="MOVEMENT KOLEKTYW">
         </NuxtLink>
 
         <UBadge class="text-md py-1" color="neutral" variant="outline">non-profit</UBadge>

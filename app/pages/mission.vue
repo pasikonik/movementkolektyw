@@ -4,7 +4,7 @@
             <h1 class="text-5xl font-bold text-center mb-8">Nasza Misja</h1>
 
             <div class="flex flex-col md:flex-row items-center mb-12">
-                <img src="/teamwork.png" alt="Równość i współpraca" class="w-24 h-24 mb-4 mx-auto md:mx-0 md:mr-6">
+                <img src="/teamwork.webp" alt="Równość i współpraca" class="w-24 h-24 mb-4 mx-auto md:mx-0 md:mr-6">
                 <p class="text-lg text-gray-800"> Jesteśmy grupą pasjonatów ruchu, która praktykuje
                     <strong>movement</strong>. Naszą misją jest stworzenie
                     społeczności, która jest samoorganizującą się jednostką, bez wyznaczonego lidera. Każdy jest równy,
@@ -13,7 +13,7 @@
             </div>
 
             <div class="flex flex-col md:flex-row-reverse items-center mb-12">
-                <img src="/movement.png" alt="Dostępność" class="w-24 h-24 mb-4 mx-auto md:mx-0 md:ml-6">
+                <img src="/movement.webp" alt="Dostępność" class="w-24 h-24 mb-4 mx-auto md:mx-0 md:ml-6">
                 <p class="text-lg text-gray-800">
                     Wierzymy, że rozwój ruchowy to fascynująca, niekończąca się <strong>podróż</strong>. Nasze ciała są niezwykle złożone
                     i
@@ -22,7 +22,7 @@
             </div>
 
             <div class="flex flex-col md:flex-row items-center">
-                <img src="/solidarity.png" alt="Wszechstronny rozwój ruchowy"
+                <img src="/solidarity.webp" alt="Wszechstronny rozwój ruchowy"
                     class="w-24 h-24 mb-4 mx-auto md:mx-0 md:mr-6">
                 <p class="text-lg"> <strong>Równość i dostępność</strong> są fundamentem naszej grupy. Nie czerpiemy korzyści finansowych
                     – zbieramy jedynie
@@ -37,7 +37,7 @@
                 każdy jest mile widziany! 💙
             </p>
 
-            <img class="mx-auto" src="/body-trans-mini.png">
+            <img class="mx-auto" src="/body-trans-mini.webp">
         </section>
     </UContainer>
 </template>
