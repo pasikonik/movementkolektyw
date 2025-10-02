@@ -3,6 +3,11 @@ import { ref, computed } from 'vue';
 import { format } from 'date-fns';
 import { pl } from 'date-fns/locale';
 
+useSeoMeta({
+  title: 'Movement w Poznaniu - Aktualne Wydarzenia i Otwarte Treningi',
+  description: 'Chcesz poruszać się z nami? Sprawdź listę nadchodzących spotkań i warsztatów naszej poznańskiej społeczności movement.',
+})
+
 const typeStyleMap = {
     outdoor: {
         backgroundColor: '#bbf7d0', // green-100
@@ -160,3 +165,7 @@ const pastEvents = computed(() => {
         </ol>
     </UContainer>
 </template>
+
+
+
+

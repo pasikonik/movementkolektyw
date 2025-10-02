@@ -41,3 +41,10 @@
         </section>
     </UContainer>
 </template>
+
+<script setup>
+useSeoMeta({
+  title: 'Społeczność Movement - Misja',
+  description: 'Wierzymy w ruch bez liderów i barier finansowych. Jesteśmy samoorganizującą się grupą, w której każdy może prowadzić zajęcia. Dołącz i współtwórz z nami!',
+})
+</script>

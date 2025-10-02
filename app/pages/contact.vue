@@ -60,3 +60,10 @@
         </div>
     </div>
 </template>
+
+<script setup>
+useSeoMeta({
+  title: 'Kontakt - Społeczność Movement Poznań',
+  description: 'Masz pytania lub chcesz dołączyć do naszej społeczności w Poznaniu? Znajdź tu nasz adres, mapę dojazdu i najlepszy sposób na kontakt. Zapraszamy!',
+})
+</script>
