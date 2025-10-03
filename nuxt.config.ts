@@ -18,7 +18,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxtjs/stylelint-module',
-    'nuxt-gtag'
+    'nuxt-gtag',
+    '@nuxtjs/seo'
   ],
 
   gtag: {
