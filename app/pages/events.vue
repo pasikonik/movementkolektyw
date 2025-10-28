@@ -33,13 +33,6 @@ function getBadgeStyle(type) {
 
 const events = ref([
     {
-        date: new Date('2025-10-19'),
-        title: 'Miękkie Akrobacje - Wewnętrzne Trajektorie',
-        presenter: 'Mikołaj Lira',
-        description: '',
-        type: 'warsztat',
-    },
-    {
         date: new Date('2025-04-27'),
         title: 'Ciężar, pęd i przestrzeń',
         presenter: 'Tomasz Koszan',
