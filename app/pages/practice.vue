@@ -163,20 +163,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-td:first-child,
-th:first-child {
-  width: 40px;
-}
-
-td:nth-child(even),
-th:nth-child(even) {
-  width: 160px;
-}
-
-td:last-child,
-th:last-child {
-  width: 110px;
-}
-</style>
