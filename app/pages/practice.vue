@@ -31,19 +31,19 @@
                     
                     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Rozgrzewka</div>
+                            <div class="font-semibold text-gray-900 mb-1">Mobilność barków</div>
                             <div class="text-sm text-gray-500">Start</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Partering</div>
+                            <div class="font-semibold text-gray-900 mb-1">Koordynacje</div>
                             <div class="text-sm text-gray-500">Technika</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Floorwork</div>
+                            <div class="font-semibold text-gray-900 mb-1">Skin the cat</div>
                             <div class="text-sm text-gray-500">Podłoga</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Skin the cat</div>
+                            <div class="font-semibold text-gray-900 mb-1">Pancake</div>
                             <div class="text-sm text-gray-500">Akrobatyka</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
@@ -111,23 +111,23 @@
                     
                     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Ropeflow</div>
+                            <div class="font-semibold text-gray-900 mb-1">Rozgrzewka</div>
                             <div class="text-sm text-gray-500">Umiejętność</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Rozgrzewka</div>
+                            <div class="font-semibold text-gray-900 mb-1">Sekwencje</div>
                             <div class="text-sm text-gray-500">Przygotowanie</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Miękka akrobatyka</div>
+                            <div class="font-semibold text-gray-900 mb-1">Improwizacja</div>
                             <div class="text-sm text-gray-500">Umiejętność</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Mobilność i siła</div>
+                            <div class="font-semibold text-gray-900 mb-1">Siła nóg</div>
                             <div class="text-sm text-gray-500">Sprawność</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Relaks</div>
+                            <div class="font-semibold text-gray-900 mb-1">Rozciąganie</div>
                             <div class="text-sm text-gray-500">Zakończenie</div>
                         </div>
                     </div>
