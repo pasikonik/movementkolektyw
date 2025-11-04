@@ -33,6 +33,13 @@ function getBadgeStyle(type) {
 
 const events = ref([
     {
+        date: new Date('2025-11-07'),
+        title: 'Lokomocja i praca kręgosłupa',
+        presenter: 'Mikołaj Lira',
+        description: '',
+        type: 'mini-warsztat',
+    },    
+    {
         date: new Date('2025-04-27'),
         title: 'Ciężar, pęd i przestrzeń',
         presenter: 'Tomasz Koszan',
