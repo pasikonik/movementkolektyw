@@ -120,7 +120,7 @@
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
                             <div class="font-semibold text-gray-900 mb-1">Improwizacja</div>
-                            <div class="text-sm text-gray-500">Kreatywność</div>
+                            <div class="text-sm text-gray-500">Integracja</div>
                         </div>
                         <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
                             <div class="font-semibold text-gray-900 mb-1">Siła nóg</div>
