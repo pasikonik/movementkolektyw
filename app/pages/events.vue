@@ -17,6 +17,10 @@ const typeStyleMap = {
         backgroundColor: '#dbeafe', // blue-100
         color: '#1e40af',           // blue-800
     },
+    'mini-warsztat': {
+        backgroundColor: '#dff2fe', // sky-100
+        color: '#00598a',           // sky-800
+    },
 };
 
 function getBadgeStyle(type) {
