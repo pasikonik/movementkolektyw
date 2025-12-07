@@ -33,8 +33,8 @@ importers:
         specifier: ^2.0.19
         version: 2.0.19(vue@3.5.25(typescript@5.9.3))
       '@vueuse/core':
-        specifier: ^14.1.0
-        version: 14.1.0(vue@3.5.25(typescript@5.9.3))
+        specifier: ^13.9.0
+        version: 13.9.0(vue@3.5.25(typescript@5.9.3))
       d3-cloud:
         specifier: ^1.2.8
         version: 1.2.8

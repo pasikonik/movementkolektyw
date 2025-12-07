@@ -1,6 +1,6 @@
 <template>
     <!-- Klikając na mapę słów (SVG) przeliczamy nowe pozycje -->
-    <svg :viewBox="viewBox" class="word-cloud-svg" @click="recalculate">
+    <svg ref="containerRef" :viewBox="viewBox" class="word-cloud-svg" @click="recalculate">
         <!-- Grupujemy elementy, by wycentrować chmurę -->
         <g :transform="translateSvg">
             <template v-for="word in computedWords" :key="word.text">
@@ -18,11 +18,13 @@
 </template>
 
 <script setup>
-import { useWindowSize } from '@vueuse/core'
-import { ref, computed, onMounted } from 'vue'
+// ... imports
+import { useWindowSize, useIntersectionObserver } from '@vueuse/core'
+import { ref, computed, watch } from 'vue' // removed onMounted as we use watcher/observer
 import { debounce } from '~/utils/debounce'
 import cloud from 'd3-cloud'
 
+// ... words array (unchanged)
 const words = [
     { text: "Adaptacja", size: 26 },
     { text: "Animal Movement", size: 15 },
@@ -83,7 +85,24 @@ const height = ref(600)
 const translateSvg = ref("translate(0, 0)")
 const colorCache = new Map()
 
-onMounted(() => {
+// Ref for the root element (svg or container)
+const containerRef = ref(null)
+const isVisible = ref(false)
+
+// Use Intersection Observer to trigger calculation only when visible
+useIntersectionObserver(
+  containerRef,
+  ([{ isIntersecting }]) => {
+    if (isIntersecting && !isVisible.value) {
+      isVisible.value = true
+      updateDimensions()
+      calculateLayout()
+    }
+  },
+  { threshold: 0.1 }
+)
+
+function updateDimensions() {
     if (windowWidth.value < 768) {
         translateSvg.value = "translate(150, 400)"
         width.value = 300
@@ -93,19 +112,20 @@ onMounted(() => {
         width.value = 800
         height.value = 400
     }
+}
 
-    calculateLayout()
-})
+// Watch window width to recalculate dimensions and layout
+watch(windowWidth, debounce(() => {
+    updateDimensions()
+    if (isVisible.value) {
+        calculateLayout()
+    }
+}, 300))
 
 // ViewBox dynamicznie dostosowuje się w zależności od szerokości okna
 const viewBox = computed(() => {
-    if (windowWidth.value < 768) {
-        // Na urządzeniach mobilnych chmura słów ma proporcje pionowe
-        return `0 0 ${width.value} ${height.value}`
-    } else {
-        // Na desktopie chmura słów ma proporcje poziome
-        return `0 0 ${width.value} ${height.value}`
-    }
+    // Both returns are same in original code, simplifying or keeping logic
+    return `0 0 ${width.value} ${height.value}`
 })
 
 // Reactive zmienna przechowująca wynik obliczeń układu
@@ -116,6 +136,8 @@ const computedWords = computed(() => layoutWords.value)
 
 // Funkcja wykonująca obliczenia pozycji słów przy użyciu d3-cloud
 function calculateLayout() {
+    if (!isVisible.value) return; // Guard clause
+
     cloud()
         .size([width.value, height.value])  // Dostosowanie rozmiaru do wartości width i height
         .words(words.map(d => ({ ...d })))
