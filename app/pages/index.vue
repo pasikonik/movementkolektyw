@@ -32,15 +32,6 @@ useSeoMeta({
   ogUrl: siteUrl,
   ogType: 'website',
   ogLocale: 'pl_PL',
-  
-  // 4. Twitter Card (ważne, jeśli udostępniasz na X)
-  twitterCard: 'summary_large_image',
-  twitterTitle: 'Movement Kolektyw | Poznań',
-  twitterDescription: 'Trening naturalny i społeczność w Poznaniu. Zobacz więcej.',
-  twitterImage: `${siteUrl}/name.webp`,
-  
-  // 5. Kolor paska w przeglądarce (mobile)
-  themeColor: '#ffffff', // Zmień na swój kolor brandowy
 })
 </script>
 
