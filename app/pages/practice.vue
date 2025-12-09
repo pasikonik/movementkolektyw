@@ -163,3 +163,10 @@
     </div>
   </div>
 </template>
+
+<script setup>
+useSeoMeta({
+  title: 'Grafik Treningów Movement Poznań',
+  description: 'Dołącz na treningi przy ul. Wielkiej 19 w Poznaniu. Trenujemy we wtorki i czwartki. Sprawdź plan!',
+})
+</script>
