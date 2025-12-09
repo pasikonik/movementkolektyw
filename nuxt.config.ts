@@ -14,6 +14,12 @@ export default defineNuxtConfig({
     }
   },
 
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://movementkolektyw.pl'
+    }
+  },
+
   modules: [
     '@nuxt/ui',
     '@nuxt/eslint',

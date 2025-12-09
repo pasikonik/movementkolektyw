@@ -10,8 +10,8 @@
 import HeroSection from '~/components/HeroSection.vue';
 import WordMap from '~/components/WordMap.vue';
 
-const config = useRuntimeConfig()
-const siteUrl = config.public.siteUrl || 'https://movementkolektyw.pl';
+const config = useRuntimeConfig();
+const siteUrl = config.public.siteUrl;
 
 useSeoMeta({
   title: 'Movement Kolektyw - Społeczność, Treningi i Warsztaty | Poznań',
