@@ -99,16 +99,19 @@
       </div>
     </div>
 
-    <div class="text-center border-t border-slate-200 pt-16">
-      <h4 class="text-xl font-bold text-slate-900 mb-4">Studio Movement Poznań</h4>
-      <div class="flex items-center justify-center gap-2 text-slate-600 hover:text-teal-600 transition-colors cursor-pointer group">
-        <div class="p-2 bg-white rounded-full shadow-md group-hover:scale-110 transition-transform">
-          <Icon name="lucide:map-pin" class="w-5 h-5 text-teal-500" />
-        </div>
-        <div class="text-left">
-          <p>ul. Wielka 19/8</p>
-          <p>61-775 Poznań, Polska</p>
-        </div>
+    <div class="p-10 flex flex-col items-center">
+      <h4 class="text-xl font-semibold mb-2">Studio Movement Poznań</h4>
+      <div class="flex items-center space-x-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
+          <circle cx="12" cy="10" r="3" />
+        </svg>
+        <a href="https://maps.app.goo.gl/rdUvGnu2DjSosHtv7" target="_blank"
+          class="text-gray-700 font-medium hover:text-green-600 transition duration-100">
+          ul. Wielka 19/8 <br>
+          61-775 Poznań, Polska
+        </a>
       </div>
     </div>
   </main>
