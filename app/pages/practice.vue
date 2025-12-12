@@ -1,172 +1,150 @@
 <template>
-  <div class="container mx-auto px-4 py-6 max-w-4xl">
-    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 md:mb-12 text-gray-800">Treningi</h1>
-
-   <div class="max-w-6xl mx-auto px-4 py-8 md:py-16">
-        
-        <!-- WTOREK -->
-        <div class="mb-10 md:mb-16">
-            <div class="bg-white rounded-2xl overflow-hidden border-2 border-gray-200 session-card">
-                <!-- Nagłówek dnia -->
-                <div class="px-6 py-5 border-b-2 border-gray-200">
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900">WTOREK</h2>
-                </div>
-
-                <!-- Sesja Movement -->
-                <div class="p-6 md:p-8">
-                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6">
-                        <div class="flex items-center gap-3 mb-3 sm:mb-0">
-                            <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                                <span class="text-xl">🏃‍♂️</span>
-                            </div>
-                            <h3 class="text-xl md:text-2xl font-semibold text-gray-900">Movement</h3>
-                        </div>
-                        <div class="inline-flex items-center gap-2 text-gray-600 font-medium">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            <span>18:45 - 20:15</span>
-                        </div>
-                    </div>
-                    
-                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Mobilność barków</div>
-                            <div class="text-sm text-gray-500">Przygotowanie</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Koordynacje</div>
-                            <div class="text-sm text-gray-500">Technika</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Skin the cat</div>
-                            <div class="text-sm text-gray-500">Kółka gimnastyczne</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Pancake</div>
-                            <div class="text-sm text-gray-500">Sprawność</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Relaks</div>
-                            <div class="text-sm text-gray-500">Zakończenie</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- CZWARTEK -->
-        <div class="mb-10">
-            <div class="bg-white rounded-2xl overflow-hidden border-2 border-gray-200 session-card">
-                <!-- Nagłówek dnia -->
-                <div class="px-6 py-5 border-b-2 border-gray-200">
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900">CZWARTEK</h2>
-                </div>
-
-                <!-- Sesja Handstand -->
-                <div class="p-6 md:p-8 border-b-2 border-gray-200">
-                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6">
-                        <div class="flex items-center gap-3 mb-3 sm:mb-0">
-                            <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                                <span class="text-xl">🤸‍♂️</span>
-                            </div>
-                            <h3 class="text-xl md:text-2xl font-semibold text-gray-900">Handstand</h3>
-                        </div>
-                        <div class="inline-flex items-center gap-2 text-gray-600 font-medium">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            <span>17:30 - 18:30</span>
-                        </div>
-                    </div>
-                    
-                    <div class="grid grid-cols-2 gap-3 md:gap-4">
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-orange-400 hover:bg-orange-50">
-                            <div class="font-semibold text-gray-900 mb-1">Rozgrzewka</div>
-                            <div class="text-sm text-gray-500">Przygotowanie</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-orange-400 hover:bg-orange-50">
-                            <div class="font-semibold text-gray-900 mb-1">Praktyka</div>
-                            <div class="text-sm text-gray-500">Technika handstand</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sesja Movement -->
-                <div class="p-6 md:p-8">
-                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6">
-                        <div class="flex items-center gap-3 mb-3 sm:mb-0">
-                            <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                                <span class="text-xl">🏃‍♂️</span>
-                            </div>
-                            <h3 class="text-xl md:text-2xl font-semibold text-gray-900">Movement</h3>
-                        </div>
-                        <div class="inline-flex items-center gap-2 text-gray-600 font-medium">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            <span>18:45 - 20:15</span>
-                        </div>
-                    </div>
-                    
-                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Rozgrzewka</div>
-                            <div class="text-sm text-gray-500">Przygotowanie</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Sekwencje</div>
-                            <div class="text-sm text-gray-500">Koordynacje</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Improwizacja</div>
-                            <div class="text-sm text-gray-500">Integracja</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Siła nóg</div>
-                            <div class="text-sm text-gray-500">Sprawność</div>
-                        </div>
-                        <div class="bg-gray-50 rounded-xl p-4 hover-lift cursor-pointer border-2 border-transparent hover:border-green-400 hover:bg-green-50">
-                            <div class="font-semibold text-gray-900 mb-1">Rozciąganie</div>
-                            <div class="text-sm text-gray-500">Zakończenie</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Informacja o planie -->
-        <div class="text-center mt-12">
-            <div class="inline-flex items-center gap-2 bg-white px-6 py-3 rounded-full border-2 border-gray-200 text-gray-700 font-medium">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                </svg>
-                <span>Plan na: listopad-grudzień 2025</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="p-10 flex flex-col items-center">
-      <h4 class="text-xl font-semibold mb-2">Studio Movement Poznań</h4>
-      <div class="flex items-center space-x-4">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
-          <circle cx="12" cy="10" r="3" />
-        </svg>
-        <a href="https://maps.app.goo.gl/rdUvGnu2DjSosHtv7" target="_blank"
-          class="text-gray-700 font-medium hover:text-green-600 transition duration-100">
-          ul. Wielka 19/8 <br>
-          61-775 Poznań, Polska
-        </a>
+  <main class="pt-6 md:pt-18 pb-12 md:pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center mb-8 md:mb-16">
+      <h1 class="text-3xl md:text-5xl font-bold text-slate-900 mb-2 md:mb-4">Treningi</h1>
+      <p class="text-slate-500 text-base md:text-lg max-w-2xl mx-auto">
+        Rozwijaj swoje ciało i umysł poprzez świadomy ruch. Dołącz do nas w Poznaniu.
+      </p>
+      <div class="mt-4 md:mt-6 inline-flex items-center gap-2 px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-slate-200 bg-white shadow-sm text-xs md:text-sm text-slate-600">
+        <Icon name="lucide:calendar-days" class="w-3 md:w-4 h-3 md:h-4 text-teal-500" />
+        Plan na: listopad 2025 - styczeń 2026
       </div>
     </div>
-  </div>
+
+    <div class="grid gap-6 md:gap-12 mb-12 md:mb-24">
+      <div
+        v-for="(day, index) in schedule"
+        :key="index"
+        class="bg-white rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl shadow-slate-200/50 overflow-hidden border border-slate-100 hover:border-teal-100 transition-colors duration-300"
+      >
+        <div class="p-4 md:p-8 border-b border-slate-100 flex flex-col md:flex-row md:items-center justify-between gap-2 md:gap-4 bg-gradient-to-r from-white to-slate-50">
+          <div>
+            <h2 class="text-xl md:text-2xl font-bold text-slate-900 uppercase tracking-wide">{{ day.day }}</h2>
+            <div class="flex items-center gap-2 mt-1 md:mt-2 text-teal-600 font-medium text-sm md:text-base">
+              <span class="flex items-center justify-center w-8 h-8 md:w-9 md:h-9 bg-teal-100 rounded-lg shrink-0">
+                <Icon name="lucide:footprints" class="w-4 md:w-5 h-4 md:h-5" />
+              </span>
+              <span>{{ day.type }}</span>
+            </div>
+          </div>
+          
+          <div class="flex items-center gap-2 text-slate-500 bg-white px-3 md:px-4 py-1.5 md:py-2 rounded-xl border border-slate-200 shadow-sm text-sm md:text-base">
+            <Icon name="lucide:clock" class="w-3 md:w-4 h-3 md:h-4" />
+            <div class="flex items-baseline gap-2">
+              <span class="font-mono">{{ day.time }}</span>
+              <span class="text-xs text-teal-600 font-semibold bg-teal-50 px-1.5 rounded border border-teal-100 whitespace-nowrap hidden sm:inline-block">
+                {{ day.duration }}
+              </span>
+              <span class="text-xs text-teal-600 font-semibold sm:hidden">
+                ({{ day.duration }})
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-4 md:p-8 bg-white">
+          <div class="grid grid-cols-2 lg:grid-cols-5 gap-2 md:gap-4">
+            <div
+              v-for="(step, sIndex) in day.steps"
+              :key="sIndex"
+              class="group relative p-3 md:p-4 rounded-xl md:rounded-2xl bg-slate-50 hover:bg-teal-50 transition-colors duration-200 border border-slate-100 hover:border-teal-200 overflow-hidden"
+            >
+              <div class="text-[10px] md:text-xs uppercase tracking-wider text-slate-400 mb-0.5 md:mb-1 group-hover:text-teal-600 font-medium">
+                {{ step.category }}
+              </div>
+              <div class="font-semibold text-slate-800 group-hover:text-teal-900 text-xs md:text-base">{{ step.name }}</div>
+              <div class="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-teal-500 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-12 md:mb-24 px-8">
+      <h3 class="text-2xl md:text-3xl font-bold text-center mb-4">Cennik</h3>
+      
+      <div class="max-w-md mx-auto mb-6 md:mb-8 p-3 md:p-4 bg-slate-50 rounded-xl">
+        <p class="text-xs md:text-sm text-center text-slate-400">
+          <Icon name="lucide:info" class="w-3 md:w-4 h-3 md:h-4 inline-block mr-1 opacity-70" />
+          Kwota przeznaczona wyłącznie na wynajem sali
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 max-w-5xl mx-auto items-center">
+        
+        <div class="bg-white p-5 md:p-8 rounded-2xl md:rounded-3xl border border-slate-200 shadow-lg hover:shadow-xl transition-shadow text-center group">
+          <div class="text-slate-500 mb-1 md:mb-2 font-medium text-sm md:text-base">Jednorazowe wejście</div>
+          <div class="text-3xl md:text-4xl font-bold text-slate-900 mb-1 md:mb-2 group-hover:text-teal-600 transition-colors">35 PLN</div>
+          <p class="text-xs md:text-sm text-slate-400">Idealne na próbę</p>
+          <p class="text-[10px] md:text-xs text-slate-500 mt-1 md:mt-2">35 PLN / zajęcia</p>
+        </div>
+
+        <div class="bg-white p-5 md:p-8 rounded-2xl md:rounded-3xl border border-slate-200 shadow-lg hover:shadow-xl transition-shadow text-center group">
+          <div class="text-slate-500 mb-1 md:mb-2 font-medium text-sm md:text-base">Raz w tygodniu</div>
+          <div class="text-3xl md:text-4xl font-bold text-slate-900 mb-1 md:mb-2 group-hover:text-teal-600 transition-colors">70 PLN</div>
+          <p class="text-xs md:text-sm text-slate-400">Karnet miesięczny</p>
+          <p class="text-[10px] md:text-xs text-slate-500 mt-1 md:mt-2">17,50 PLN / zajęcia</p>
+        </div>
+
+        <div class="relative bg-white p-5 md:p-8 rounded-2xl md:rounded-3xl border-2 border-teal-500 shadow-2xl md:scale-105 z-10 text-center">
+          <div class="absolute -top-3 md:-top-4 left-1/2 transform -translate-x-1/2 bg-teal-500 text-white px-3 md:px-4 py-0.5 md:py-1 rounded-full text-[10px] md:text-xs font-bold uppercase tracking-wide">
+            Najlepszy wybór
+          </div>
+          <div class="text-slate-500 mb-1 md:mb-2 font-medium text-sm md:text-base">Dwa razy w tygodniu</div>
+          <div class="text-4xl md:text-5xl font-bold text-slate-900 mb-1 md:mb-2 text-teal-600">100 PLN</div>
+          <p class="text-xs md:text-sm text-slate-400">Karnet miesięczny</p>
+          <p class="text-[10px] md:text-xs text-teal-600 font-semibold mt-1 md:mt-2">12,50 PLN / zajęcia</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="text-center border-t border-slate-200 pt-16">
+      <h4 class="text-xl font-bold text-slate-900 mb-4">Studio Movement Poznań</h4>
+      <div class="flex items-center justify-center gap-2 text-slate-600 hover:text-teal-600 transition-colors cursor-pointer group">
+        <div class="p-2 bg-white rounded-full shadow-md group-hover:scale-110 transition-transform">
+          <Icon name="lucide:map-pin" class="w-5 h-5 text-teal-500" />
+        </div>
+        <div class="text-left">
+          <p>ul. Wielka 19/8</p>
+          <p>61-775 Poznań, Polska</p>
+        </div>
+      </div>
+    </div>
+  </main>
 </template>
 
-<script setup>
-useSeoMeta({
-  title: 'Grafik Treningów Movement Poznań',
-  description: 'Dołącz na treningi przy ul. Wielkiej 19 w Poznaniu. Trenujemy we wtorki i czwartki. Sprawdź plan!',
-})
+<script setup lang="ts">
+const schedule = ref([
+  {
+    day: 'Wtorek',
+    type: 'Zajęcia Movement',
+    time: '18:45 - 20:15',
+    duration: '90 min', // ZMIANA: Dodano pole duration
+    steps: [
+      { category: 'Przygotowanie', name: 'Mobilność barków' },
+      { category: 'Technika', name: 'Koordynacje' },
+      { category: 'Kółka gimnastyczne', name: 'Skin the cat' },
+      { category: 'Sprawność', name: 'Pancake' },
+      { category: 'Zakończenie', name: 'Relaks' }
+    ]
+  },
+  {
+    day: 'Czwartek',
+    type: 'Zajęcia Movement',
+    time: '18:45 - 20:15',
+    duration: '90 min', // ZMIANA: Dodano pole duration
+    steps: [
+      { category: 'Przygotowanie', name: 'Rozgrzewka' },
+      { category: 'Koordynacje', name: 'Sekwencje' },
+      { category: 'Integracja', name: 'Improwizacja' },
+      { category: 'Sprawność', name: 'Siła nóg' },
+      { category: 'Zakończenie', name: 'Rozciąganie' }
+    ]
+  }
+])
 </script>
+
+<style scoped>
+/* Dodatkowe style jeśli potrzebne */
+</style>
