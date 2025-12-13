@@ -65,7 +65,7 @@
       
       <div class="max-w-md mx-auto mb-6 md:mb-8 p-3 md:p-4 bg-slate-50 rounded-xl">
         <p class="text-xs md:text-sm text-center text-slate-400">
-          <Icon name="lucide:info" class="w-3 md:w-4 h-3 md:h-4 inline-block mr-1 opacity-70" />
+          <Icon name="lucide:info" class="w-3 md:w-4 h-3 md:h-4 inline-block mr-1 opacity-70 align-middle" />
           Kwota przeznaczona wyłącznie na wynajem sali
         </p>
       </div>
