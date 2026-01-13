@@ -17,7 +17,7 @@
         :key="index"
         class="bg-white rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl shadow-slate-200/50 overflow-hidden border border-slate-100 hover:border-teal-100 transition-colors duration-300"
       >
-        <div class="p-4 md:p-8 border-b border-slate-100 flex flex-col md:flex-row md:items-center justify-between gap-2 md:gap-4 bg-gradient-to-r from-white to-slate-50">
+        <div :id="day.day" class="p-4 md:p-8 border-b border-slate-100 flex flex-col md:flex-row md:items-center justify-between gap-2 md:gap-4 bg-gradient-to-r from-white to-slate-50">
           <div>
             <h2 class="text-xl md:text-2xl font-bold text-slate-900 uppercase tracking-wide">{{ day.day }}</h2>
             <div class="flex items-center gap-2 mt-1 md:mt-2 text-teal-600 font-medium text-sm md:text-base">
