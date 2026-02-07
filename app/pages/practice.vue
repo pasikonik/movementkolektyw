@@ -123,26 +123,24 @@ const schedule = ref([
     day: 'Wtorek',
     type: 'Zajęcia Movement',
     time: '18:45 - 20:15',
-    duration: '90 min', // ZMIANA: Dodano pole duration
+    duration: '90 min',
     steps: [
-      { category: 'Przygotowanie', name: 'Mobilność barków' },
-      { category: 'Technika', name: 'Koordynacje' },
-      { category: 'Kółka gimnastyczne', name: 'Skin the cat' },
-      { category: 'Sprawność', name: 'Pancake' },
-      { category: 'Zakończenie', name: 'Relaks' }
+      { category: 'Przygotowanie', name: 'Rozgrzewka' },
+      { category: 'Technika akrobatyczna', name: 'Macaco' },
+      { category: 'Praca w parach', name: 'Partnering' },
+      { category: 'Wyciszanie', name: 'Rozciąganie' },
     ]
   },
   {
     day: 'Czwartek',
     type: 'Zajęcia Movement',
     time: '18:45 - 20:15',
-    duration: '90 min', // ZMIANA: Dodano pole duration
+    duration: '90 min',
     steps: [
-      { category: 'Przygotowanie', name: 'Rozgrzewka' },
-      { category: 'Koordynacje', name: 'Sekwencje' },
-      { category: 'Integracja', name: 'Improwizacja' },
-      { category: 'Sprawność', name: 'Siła nóg' },
-      { category: 'Zakończenie', name: 'Rozciąganie' }
+      { category: 'Rytm', name: 'Koordynacje' },
+      { category: 'Miękka Akrobatyka', name: 'Soft Acro' },
+      { category: 'Siła', name: 'Siłownia nóg' },
+      { category: 'Wyciszanie', name: 'Relaks' },
     ]
   }
 ])

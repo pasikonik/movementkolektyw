@@ -2,13 +2,14 @@
    <div>
       <HeroSection />
 
-      <WordMap />
+      <Words />
    </div>
 </template>
 
 <script setup>
 import HeroSection from '~/components/HeroSection.vue';
 import WordMap from '~/components/WordMap.vue';
+import Words from '~/components/Words.vue';
 
 const config = useRuntimeConfig();
 const siteUrl = config.public.siteUrl;
