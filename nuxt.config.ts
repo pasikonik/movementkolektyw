@@ -1,53 +1,68 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  srcDir: 'app',
+  srcDir: "app",
 
   app: {
     head: {
-       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
-        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: "/favicon-32x32.png",
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "/favicon-16x16.png",
+        },
+        {
+          rel: "apple-touch-icon",
+          sizes: "180x180",
+          href: "/apple-touch-icon.png",
+        },
       ],
-    }
+    },
   },
 
   runtimeConfig: {
     public: {
-      siteUrl: 'https://movementkolektyw.pl'
-    }
+      siteUrl: "https://movementkolektyw.pl",
+    },
   },
 
   modules: [
-    '@nuxt/ui',
-    '@nuxt/eslint',
-    '@nuxt/fonts',
-    '@nuxt/image',
-    '@nuxt/scripts',
-    '@nuxtjs/stylelint-module',
-    'nuxt-gtag',
-    '@nuxtjs/seo'
+    "@nuxt/ui",
+    "@nuxt/eslint",
+    "@nuxt/fonts",
+    "@nuxt/image",
+    "@nuxt/scripts",
+    "@nuxtjs/stylelint-module",
+    "nuxt-gtag",
+    "@nuxtjs/seo",
   ],
 
   features: {
-    inlineStyles: true
+    inlineStyles: true,
   },
 
   gtag: {
-    id: 'G-7V9WX2JCKS'
+    id: "G-7V9WX2JCKS",
+    enabled: false,
   },
 
   stylelint: {
-    failOnError: false
+    failOnError: false,
   },
 
-  css: ['~/assets/css/main.css'],
+  css: ["~/assets/css/main.css"],
 
   future: {
-    compatibilityVersion: 4
+    compatibilityVersion: 4,
   },
 
-  compatibilityDate: '2024-11-27'
-})
+  compatibilityDate: "2024-11-27",
+});
