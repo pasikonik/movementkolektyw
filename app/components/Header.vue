@@ -4,12 +4,12 @@
       <!-- Mobile -->
       <div class="h-full lg:hidden flex justify-between items-center">
         <button class="p-2 cursor-pointer flex items-center" @click="toggleMenu">
-          <UIcon :class="{'rotate-180 transition-transform duration-300 ease-in-out': isMenuOpen}" class="size-6"
+          <UIcon :class="{ 'rotate-180 transition-transform duration-300 ease-in-out': isMenuOpen }" class="size-6"
             :name="isMenuOpen ? 'lucide:x' : 'lucide:align-justify'" />
         </button>
 
         <NuxtLink to="/" class="w-2/3">
-          <img src="/name.webp" alt="MOVEMENT KOLEKTYW">
+          <NuxtImg src="/name.webp" alt="MOVEMENT KOLEKTYW" />
         </NuxtLink>
 
         <UBadge class="py-1" color="neutral" variant="outline">non-profit</UBadge>

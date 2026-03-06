@@ -31,6 +31,10 @@ export default defineNuxtConfig({
     '@nuxtjs/seo'
   ],
 
+  features: {
+    inlineStyles: true
+  },
+
   gtag: {
     id: 'G-7V9WX2JCKS'
   },
