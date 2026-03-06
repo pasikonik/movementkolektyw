@@ -3,7 +3,7 @@
         <!-- Background Image with LCP optimization -->
         <NuxtImg src="/tlo.webp" preload alt="Hero background" fetchpriority="high" loading="eager"
             class="absolute inset-0 -z-20 h-full w-full object-cover object-center"
-            sizes="sm:640px md:1024px lg:1920px xl:2560px" quality="80" format="webp" />
+            sizes="xs:100vw sm:100vw md:100vw lg:1400px xl:1600px" quality="80" format="avif" />
 
         <!-- Dark Gradient Overlay for readability -->
         <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
