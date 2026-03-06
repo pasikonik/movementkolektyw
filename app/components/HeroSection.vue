@@ -2,9 +2,8 @@
     <section class="wrapper relative h-full flex flex-col md:flex-row isolate overflow-hidden">
         <NuxtImg src="/tlo.avif" preload alt="Hero background" fetchpriority="high" loading="eager"
             class="absolute inset-0 -z-20 h-full w-full object-cover object-center"
-            sizes="xs:100vw sm:100vw md:100vw lg:1400px xl:1600px" quality="80" />
+            sizes="xs:100vw sm:100vw md:100vw lg:1400px xl:1600px" quality="60" :placeholder="[20, 10]" />
 
-        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
 
         <div class="w-full h-full flex items-center justify-center px-4 lg:px-32 z-10">
             <div class="text-center text-white max-w-3xl">
