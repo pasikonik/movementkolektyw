@@ -39,7 +39,7 @@
       <!-- Desktop -->
       <div class="h-full max-sm:hidden flex justify-between items-center">
         <NuxtLink to="/">
-          <img src="/name.webp" alt="MOVEMENT KOLEKTYW">
+          <NuxtImg src="/name.webp" alt="MOVEMENT KOLEKTYW" />
         </NuxtLink>
 
         <UBadge class="text-md py-1" color="neutral" variant="outline">non-profit</UBadge>
