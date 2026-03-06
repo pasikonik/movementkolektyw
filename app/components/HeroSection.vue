@@ -1,8 +1,8 @@
 <template>
     <section class="wrapper relative h-full flex flex-col md:flex-row isolate overflow-hidden">
-        <NuxtPicture src="/tlo.webp" preload alt="Hero background" fetchpriority="high" loading="eager"
+        <NuxtImg src="/tlo.avif" preload alt="Hero background" fetchpriority="high" loading="eager"
             class="absolute inset-0 -z-20 h-full w-full object-cover object-center"
-            sizes="xs:100vw sm:100vw md:100vw lg:1400px xl:1600px" quality="80" format="avif,webp" />
+            sizes="xs:100vw sm:100vw md:100vw lg:1400px xl:1600px" quality="80" />
 
         <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
 
