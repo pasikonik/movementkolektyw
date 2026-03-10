@@ -41,7 +41,7 @@
                 każdy jest mile widziany! 💙
             </p>
 
-            <NuxtImg class="mx-auto" src="/body-trans-mini.webp" />
+            <NuxtImg class="mx-auto" src="/body-trans-mini.webp" alt="Równość i dostępność" />
         </section>
     </UContainer>
 </template>

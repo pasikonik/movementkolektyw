@@ -51,7 +51,6 @@ export default defineNuxtConfig({
 
   gtag: {
     id: "G-7V9WX2JCKS",
-    enabled: false,
   },
 
   stylelint: {

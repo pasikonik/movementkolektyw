@@ -12,7 +12,7 @@
                         <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
                         <circle cx="12" cy="10" r="3" />
                     </svg>
-                    <a href="https://maps.app.goo.gl/rdUvGnu2DjSosHtv7" target="_blank"
+                    <a href="https://maps.app.goo.gl/rdUvGnu2DjSosHtv7" target="_blank" rel="noopener noreferrer"
                         class="text-gray-700 font-medium hover:text-green-600 transition duration-200">
                         ul. Wielka 19/8 <br>
                         61-775 Poznań, Polska
@@ -48,13 +48,15 @@
 
                 <div class="flex items-center space-x-4">
                     <UIcon name="fa-brands:instagram" alt="Instagram" class="w-6 h-6 inline-block" />
-                    <a href="https://www.instagram.com/movement_kolektyw" target="_blank">@movement_kolektyw</a>
+                    <a href="https://www.instagram.com/movement_kolektyw" rel="noopener noreferrer"
+                        target="_blank">@movement_kolektyw</a>
                 </div>
 
 
                 <div class="flex items-center space-x-4">
                     <UIcon name="fa-brands:facebook-square" alt="Facebook" class="w-6 h-6 inline-block" />
-                    <a href="https://www.facebook.com/movementkolektyw" target="_blank">@movementkolektyw</a>
+                    <a href="https://www.facebook.com/movementkolektyw" rel="noopener noreferrer"
+                        target="_blank">@movementkolektyw</a>
                 </div>
             </div>
         </div>
