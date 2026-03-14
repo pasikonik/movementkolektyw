@@ -14,7 +14,7 @@
     "lint:css:fix": "stylelint \"**/*.{vue,scss,css}\" --fix"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.96",
+    "@iconify-json/lucide": "^1.2.97",
     "@iconify-json/simple-icons": "^1.2.73",
     "@nuxt/fonts": "^0.14.0",
     "@nuxt/image": "^2.0.0",
@@ -24,7 +24,7 @@
     "@unhead/vue": "^2.1.12",
     "@vueuse/core": "^14.2.1",
     "date-fns": "^4.1.0",
-    "nuxt": "^4.3.1",
+    "nuxt": "^4.4.2",
     "nuxt-gtag": "^4.1.0"
   },
   "devDependencies": {

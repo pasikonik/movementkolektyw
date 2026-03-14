@@ -15,7 +15,7 @@ useHead({
       {
          rel: 'preload',
          as: 'image',
-         href: '/_netlify/images?w=1536&url=%2Ftlo.webp',
+         href: '/_netlify/images?w=1536&url=%2Ftlo.avif',
          fetchpriority: 'high'
       }
    ]

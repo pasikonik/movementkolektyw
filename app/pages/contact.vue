@@ -26,7 +26,7 @@
                     </svg>
                     <div class="text-gray-600">
                         <p><strong>Wtorek:</strong> 18:45 - 20:15</p>
-                        <p><strong>Czwartek:</strong> 17:30 - 20:15</p>
+                        <p><strong>Czwartek:</strong> 18:45 - 20:15</p>
                     </div>
                 </div>
             </div>
