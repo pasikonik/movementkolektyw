@@ -1,8 +1,9 @@
 <template>
     <section class="wrapper relative h-full flex flex-col md:flex-row isolate overflow-hidden">
-        <NuxtImg src="/tlo.avif" preload alt="Hero background" fetchpriority="high" loading="eager"
+        <NuxtImg src="/tlo.avif" alt="Hero background" preload fetchpriority="high" loading="eager"
             class="absolute inset-0 -z-20 h-full w-full object-cover object-center"
-            sizes="xs:100vw sm:100vw md:100vw lg:1400px xl:1600px" quality="60" :placeholder="[20, 10]" />
+            :widths="[640, 768, 1024, 1280, 1600]" sizes="xs:100vw sm:100vw md:100vw lg:100vw xl:1600px" quality="75"
+            format="avif" />
 
 
         <div class="w-full h-full flex items-center justify-center px-4 lg:px-32 z-10">

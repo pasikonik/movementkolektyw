@@ -45,6 +45,10 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
   ],
 
+  image: {
+    provider: "netlify",
+  },
+
   features: {
     inlineStyles: true,
   },
