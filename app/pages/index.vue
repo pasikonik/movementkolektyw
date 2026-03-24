@@ -4,7 +4,6 @@
 
     <!-- Section 1: Hero -->
     <section id="hero" class="relative min-h-screen flex items-center justify-center pt-20 px-6">
-      <!-- Abstract movement SVG background -->
       <div class="absolute inset-0 z-0 opacity-5 pointer-events-none flex items-center justify-center">
         <svg width="800" height="800" viewBox="0 0 200 200" xmlns="http://www.w3.org/w3.org/2000/svg">
           <path fill="#1A1A1A"
@@ -333,11 +332,17 @@
 </template>
 
 <script setup>
-// W Nuxt 4 mechanizm auto-importów jest domyślny i zoptymalizowany.
+const { public: { siteUrl } } = useRuntimeConfig()
 
-// 1. Ustawienia sekcji <head> (Fonty i Skrypty)
-useHead({
-  title: 'Movement Kolektyw - Ruch to wspólnota',
+useSeoMeta({
+  title: 'Movement Kolektyw - Społeczność, Treningi i Warsztaty | Poznań',
+  description: 'Szukasz zajęć Movement w Poznaniu? Dołącz do Movement Kolektyw. Rozwijaj ciało poprzez naturalny ruch, mobility, akrobatykę i siłę. Sprawdź grafik zajęć i trenuj z nami!',
+  ogTitle: 'Movement Kolektyw - Dołącz do społeczności ruchu',
+  ogDescription: 'Odkryj możliwości swojego ciała. Treningi grupowe, warsztaty i pasjonaci ruchu w sercu Poznania.',
+  ogImage: `${siteUrl}/name.webp`,
+  ogUrl: siteUrl,
+  ogType: 'website',
+  ogLocale: 'pl_PL',
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
@@ -351,36 +356,7 @@ useHead({
   }
 })
 
-// 2. Logika Navbaru i Scrolla
-const isScrolled = ref(false)
-
-const handleScroll = () => {
-  isScrolled.value = window.scrollY > 50
-}
-
-// 3. Menu Mobilne
-const isMobileMenuOpen = ref(false)
-
-const toggleMobileMenu = () => {
-  isMobileMenuOpen.value = !isMobileMenuOpen.value
-}
-
-const closeMobileMenu = () => {
-  isMobileMenuOpen.value = false
-}
-
-const currentYear = new Date().getFullYear()
-
-// 4. Inicjalizacja cyklu życia (Intersection Observer do animacji Fade-in)
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
-
-  const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.15
-  }
-
   const observer = new IntersectionObserver((entries, observerInstance) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -388,17 +364,13 @@ onMounted(() => {
         observerInstance.unobserve(entry.target)
       }
     })
-  }, observerOptions)
+  }, { threshold: 0.15 })
 
   setTimeout(() => {
     document.querySelectorAll('.fade-in-section').forEach(section => {
       observer.observe(section)
     })
   }, 100)
-})
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
 })
 </script>
 

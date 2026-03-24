@@ -31,43 +31,27 @@
   </nav>
 </template>
 
-
 <script setup>
-const items = ref([
-  [
-    {
-      label: 'Misja',
-      icon: 'i-lucide-telescope',
-      to: '/#misja'
-    },
-    {
-      label: 'Zajęcia',
-      icon: 'i-lucide-person-standing',
-      to: '/#zajecia'
-    },
-    {
-      label: 'Wydarzenia',
-      icon: 'i-lucide-calendar-days',
-      to: '/#wydarzenia'
-    },
-    {
-      label: 'Kontakt',
-      icon: 'i-lucide-circle-user-round',
-      to: '/#kontakt',
-    }
-  ],
-])
+const isScrolled = ref(false)
+const isMobileMenuOpen = ref(false)
 
-const isMenuOpen = ref(false);
-
-const toggleMenu = () => {
-  isMenuOpen.value = !isMenuOpen.value;
-};
-</script>
-
-
-<style>
-.navbar-link {
-  padding: 10px 14px;
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 50
 }
-</style>
+
+const toggleMobileMenu = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value
+}
+
+const closeMobileMenu = () => {
+  isMobileMenuOpen.value = false
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
+</script>
