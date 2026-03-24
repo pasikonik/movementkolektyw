@@ -267,19 +267,17 @@
       </div>
     </section>
 
-    <!-- Section 5: Kontakt i Informacje (Odtworzone na podst. screenshota ze stylem strony) -->
+    <!-- Section 5: Kontakt i Informacje -->
     <section id="kontakt" class="py-24 md:py-40 px-6 md:px-12 bg-white">
       <div class="max-w-4xl mx-auto fade-in-section">
-
         <div class="grid md:grid-cols-2 gap-12 lg:gap-24">
 
-          <!-- Studio Movement Poznań -->
           <div class="space-y-8">
             <h3 class="font-['Space_Grotesk'] text-2xl font-bold text-[#1A1A1A]">Studio Movement Poznań</h3>
 
-            <a href="https://maps.app.goo.gl/rdUvGnu2DjSosHtv7" target="_blank"
+            <a href="https://maps.google.com/?q=Wielka+19/8+Poznań" target="_blank"
               class="flex items-start gap-4 hover:opacity-80 transition-opacity decoration-none">
-              <i class="ph ph-map-pin text-2xl text-[#D96C4A] mt-1 shrink-0"></i>
+              <Icon name="lucide:map-pin" class="text-2xl text-[#D96C4A] mt-1 shrink-0" />
               <div class="text-lg text-gray-700 leading-relaxed">
                 <p>ul. Wielka 19/8</p>
                 <p>61-775 Poznań, Polska</p>
@@ -287,7 +285,7 @@
             </a>
 
             <div class="flex items-start gap-4">
-              <i class="ph ph-clock text-2xl text-[#1A1A1A] mt-1 shrink-0"></i>
+              <Icon name="lucide:clock" class="text-2xl text-[#1A1A1A] mt-1 shrink-0" />
               <div class="text-lg text-gray-700 leading-relaxed">
                 <p><span class="font-bold text-[#1A1A1A]">Wtorek:</span> 18:45 - 20:15</p>
                 <p><span class="font-bold text-[#1A1A1A]">Czwartek:</span> 17:30 - 20:15</p>
@@ -295,12 +293,11 @@
             </div>
           </div>
 
-          <!-- Kontakt elektroniczny -->
           <div class="space-y-8">
             <h3 class="font-['Space_Grotesk'] text-2xl font-bold text-[#1A1A1A]">Kontakt elektroniczny</h3>
 
             <div class="flex items-center gap-4">
-              <i class="ph ph-envelope-simple text-2xl text-[#1A1A1A] shrink-0"></i>
+              <Icon name="lucide:mail" class="text-2xl text-[#1A1A1A] shrink-0" />
               <a href="mailto:movementkolektyw@gmail.com"
                 class="text-lg text-gray-700 hover:text-[#D96C4A] transition-colors">
                 movementkolektyw@gmail.com
@@ -308,7 +305,7 @@
             </div>
 
             <div class="flex items-center gap-4">
-              <i class="ph ph-instagram-logo text-2xl text-[#1A1A1A] shrink-0"></i>
+              <Icon name="simple-icons:instagram" class="text-2xl text-[#1A1A1A] shrink-0" />
               <a href="https://www.instagram.com/movement_kolektyw"
                 class="text-lg text-gray-700 hover:text-[#D96C4A] transition-colors">
                 @movement_kolektyw
@@ -316,7 +313,7 @@
             </div>
 
             <div class="flex items-center gap-4">
-              <i class="ph ph-facebook-logo text-2xl text-[#1A1A1A] shrink-0"></i>
+              <Icon name="simple-icons:facebook" class="text-2xl text-[#1A1A1A] shrink-0" />
               <a href="https://www.facebook.com/movementkolektyw"
                 class="text-lg text-gray-700 hover:text-[#D96C4A] transition-colors">
                 @movementkolektyw
@@ -347,9 +344,6 @@ useSeoMeta({
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;600;700&display=swap' }
-  ],
-  script: [
-    { src: 'https://unpkg.com/@phosphor-icons/web', defer: true }
   ],
   htmlAttrs: {
     class: 'scroll-smooth'
