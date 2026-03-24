@@ -59,21 +59,33 @@
     <!-- Section 3: Zajęcia (Format i Cennik) przebudowane -->
     <section id="zajecia" class="py-24 md:py-40 px-6 md:px-12 bg-[#F0F0F0]">
       <div class="max-w-7xl mx-auto">
-        <div class="fade-in-section">
+        <div class="fade-in-section space-y-12 md:space-y-16">
 
-          <!-- Górna sekcja opisu -->
-          <div class="max-w-3xl mb-16">
-            <h2 class="font-['Space_Grotesk'] text-4xl md:text-5xl font-bold mb-6">Jak wyglądają spotkania?</h2>
-            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-              Każde spotkanie trwa 1,5 godziny i składa się z 3 do 5 bloków tematycznych prowadzonych przez chętnych
-              członków kolektywu. Jesteśmy otwarci na wszystkie poziomy zaawansowania.
-            </p>
+          <!-- Nagłówek + info o terminach -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <h2 class="font-['Space_Grotesk'] text-4xl md:text-5xl font-bold mb-6">
+                Jak wyglądają spotkania?
+              </h2>
+              <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                Każde spotkanie trwa 1,5 godziny i składa się z 3 do 5 bloków tematycznych
+                prowadzonych przez chętnych członków kolektywu. Jesteśmy otwarci na
+                wszystkie poziomy zaawansowania.
+              </p>
+            </div>
 
-            <div
-              class="inline-flex items-start md:items-center gap-3 text-sm font-medium bg-white px-5 py-3 border border-gray-200 rounded-lg text-gray-700">
-              <i class="ph-fill ph-info text-xl text-[#D96C4A] mt-0.5 md:mt-0"></i>
-              <span><strong>Jesteśmy inicjatywą non-profit.</strong> Opłaty w 100% pokrywają koszty sali i
-                sprzętu.</span>
+            <div class="flex justify-start md:justify-end">
+              <div class="bg-white p-8 border-l-4 border-[#D96C4A] shadow-sm rounded-r-xl w-full md:w-auto">
+                <p class="uppercase text-sm tracking-widest text-gray-400 font-semibold mb-2">
+                  Kiedy się spotykamy
+                </p>
+                <p class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold text-[#1A1A1A]">
+                  Wtorki i Czwartki
+                </p>
+                <p class="text-xl text-[#D96C4A] font-medium mt-1">
+                  18:45 – 20:15
+                </p>
+              </div>
             </div>
           </div>
 
@@ -124,6 +136,14 @@
             </div>
 
           </div>
+
+          <!-- Info banner -->
+          <div
+            class="flex items-start md:items-center gap-3 text-sm font-medium bg-white px-5 py-3 border border-gray-200 rounded-lg text-gray-700 mx-auto w-fit">
+            <Icon name="lucide:info" class="text-xl text-[#D96C4A]" />
+            <span><strong>Jesteśmy inicjatywą non-profit.</strong> Opłaty w 100% pokrywają koszty sali i sprzętu.</span>
+          </div>
+
         </div>
       </div>
     </section>
@@ -288,7 +308,7 @@
               <Icon name="lucide:clock" class="text-2xl text-[#1A1A1A] mt-1 shrink-0" />
               <div class="text-lg text-gray-700 leading-relaxed">
                 <p><span class="font-bold text-[#1A1A1A]">Wtorek:</span> 18:45 - 20:15</p>
-                <p><span class="font-bold text-[#1A1A1A]">Czwartek:</span> 17:30 - 20:15</p>
+                <p><span class="font-bold text-[#1A1A1A]">Czwartek:</span> 18:45 - 20:15</p>
               </div>
             </div>
           </div>
