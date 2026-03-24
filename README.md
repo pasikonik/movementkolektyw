@@ -7,26 +7,28 @@ Informational page about movement community.
 
 ## ⚙️ Technology Stack
 
-| **Technology**  | **Version** |**Notes**                                               |
-|-----------------|-------------|---------------------------------------------------------|
-| **Node.js**     | 22.14.0     | Recommended stable LTS version 22.x                     |
-| **Nuxt**        | 4.1.2       | Primary application framework (SSR/SPA)                 |
-| **@nuxt/ui**    | 4.0.0       | Nuxt UI component library                               |
-| **Tailwind CSS**| 4.1.12      | CSS framework for styling and flexible layouts          |
-| **Vue**         | 3.5.13      | Core framework for building user interfaces             |
-| **pnpm**        | 10.17.1     | Fast and efficient package manager for Node.js projects |  
+| **Technology**   | **Version** | **Notes**                                               |
+| ---------------- | ----------- | ------------------------------------------------------- |
+| **Node.js**      | 22.14.0     | Recommended stable LTS version 22.x                     |
+| **Nuxt**         | 4.4.2       | Primary application framework (SSR/SPA)                 |
+| **@nuxt/ui**     | 4.5.1       | Nuxt UI component library                               |
+| **Tailwind CSS** | 4.1.12      | CSS framework for styling and flexible layouts          |
+| **Vue**          | 3.5.13      | Core framework for building user interfaces             |
+| **pnpm**         | 10.32.1     | Fast and efficient package manager for Node.js projects |
 
 ## 🚩 Roadmap
 
 - [x] Layout:
-    - [x] Basic Page Structure
-    - [x] Header Menu
+  - [x] Basic Page Structure
+  - [x] Header Menu
 - [x] Home Page:
-    - [x] Hero Section
-    - [x] Topics Map
+  - [x] Hero Section
+  - [x] Topics Map
 - [x] Contact Page
 - [x] Practice page
 - [x] Adjust to mobile
 - [x] Add Events page
 - [x] Better UX for Practice page
-- [ ] Use Nuxt Image (buggy in nuxt 3.16)
+- [x] Use Nuxt Image
+- [x] Remove word map
+- [x] Use SPA convention

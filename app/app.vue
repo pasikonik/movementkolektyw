@@ -15,5 +15,6 @@ useHead({
 <style>
 html {
   color-scheme: light;
+  scroll-behavior: smooth;
 }
 </style>

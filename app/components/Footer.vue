@@ -1,19 +1,9 @@
 <template>
-  <div class="border-t border-gray-200 py-4 text-center">
-    <div class="flex justify-center gap-4 my-2">
-      <a href="https://www.facebook.com/movementkolektyw/" target="_blank" rel="noopener noreferrer"
-        class="inline-block" aria-label="Odwiedź nasz profil na Facebooku">
-        <UIcon name="fa-brands:facebook-square" alt="Facebook" class="w-6 h-6 inline-block" />
-      </a>
-
-      <a href="https://instagram.com/movement_kolektyw" target="_blank" rel="noopener noreferrer" class="inline-block"
-        aria-label="Odwiedź nasz profil na Instagramie">
-        <UIcon name="fa-brands:instagram" alt="Instagram" class="w-6 h-6 inline-block" />
-      </a>
-    </div>
-
-    <p>© {{ currentYear }} MOVEMENT KOLEKTYW</p>
-  </div>
+  <footer class="bg-[#FAFAFA] text-[#1A1A1A] py-8 px-6 text-center border-t border-gray-200 mt-auto">
+    <p class="font-body text-sm text-gray-500">
+      &copy; {{ currentYear }} Movement Kolektyw. Ruch non-profit.
+    </p>
+  </footer>
 </template>
 
 <script setup>
