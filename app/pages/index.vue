@@ -122,13 +122,14 @@
 
             <!-- Karta 3 -->
             <div
-              class="flex flex-col justify-between p-8 border border-[#D96C4A]/30 bg-white hover:border-[#D96C4A] hover:-translate-y-1 hover:shadow-md transition-all duration-300 rounded-xl relative overflow-hidden">
-              <div class="absolute top-0 left-0 w-full h-1.5 bg-[#D96C4A]"></div>
+              class="flex flex-col justify-between p-8 border-2 border-[#D96C4A] bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300 rounded-xl relative overflow-hidden">
               <div>
-                <div class="font-['Space_Grotesk'] text-2xl font-bold mb-2">Karnet 2x w tygodniu</div>
-                <div class="text-3xl font-bold text-[#1A1A1A] mb-4">100 <span
-                    class="text-base font-normal text-gray-500">PLN / mc</span></div>
+                <div class="font-['Space_Grotesk'] text-2xl font-bold mb-2 text-[#1A1A1A]">Karnet 2x w tygodniu</div>
+                <div class="text-3xl font-bold text-[#1A1A1A] mb-4">
+                  100 <span class="text-base font-normal text-gray-500">PLN / mc</span>
+                </div>
               </div>
+
               <div
                 class="text-sm font-medium text-[#D96C4A] bg-[#FAFAFA] py-2 px-3 inline-block rounded border border-gray-100 mt-8 text-center">
                 12.50 PLN / zajęcia
@@ -389,7 +390,6 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Animacje Fade in */
 .fade-in-section {
   opacity: 0;
   transform: translateY(20px);

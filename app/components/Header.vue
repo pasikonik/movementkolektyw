@@ -4,7 +4,9 @@
     isScrolled ? 'bg-[#FAFAFA]/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-4'
   ]">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <a href="#hero" class="font-['Space_Grotesk'] font-bold text-xl tracking-tighter">Movement Kolektyw.</a>
+      <NuxtLink to="#hero" class="block">
+        <NuxtImg src="/name.avif" alt="Movement Kolektyw" class="h-8 w-auto" loading="eager" fetchpriority="high" />
+      </NuxtLink>
 
       <!-- Desktop Menu -->
       <div class="hidden md:flex gap-8 font-medium">
