@@ -122,8 +122,13 @@
 
             <!-- Karta 3 -->
             <div
-              class="flex flex-col justify-between p-8 border-2 border-[#D96C4A] bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300 rounded-xl relative overflow-hidden">
+              class="flex flex-col justify-between p-8 border-2 border-[#D96C4A] bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300 rounded-xl relative">
               <div>
+                <div
+                  class="absolute -top-2 right-4 bg-[#D96C4A] text-white text-[11px] font-medium px-2 py-0.5 rounded">
+                  Najlepsza cena w mieście
+                </div>
+
                 <div class="font-['Space_Grotesk'] text-2xl font-bold mb-2 text-[#1A1A1A]">Karnet 2x w tygodniu</div>
                 <div class="text-3xl font-bold text-[#1A1A1A] mb-4">
                   100 <span class="text-base font-normal text-gray-500">PLN / mc</span>
