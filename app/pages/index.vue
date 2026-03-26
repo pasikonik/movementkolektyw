@@ -233,7 +233,7 @@
                   <span
                     class="px-3 py-1 bg-white border border-gray-200 text-gray-500 text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
                 </div>
-                <p class="text-lg text-gray-500">Prowadzący: <span class="font-semibold">Katarzyna Paluch</span></p>
+                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Katarzyna Paluch</span></p>
               </div>
             </div>
 
@@ -250,7 +250,7 @@
                   <span
                     class="px-3 py-1 bg-[#F0F0F0] text-gray-600 text-xs font-bold uppercase tracking-wider rounded">outdoor</span>
                 </div>
-                <p class="text-lg text-gray-500">Prowadzący: <span class="font-semibold">Movement Kolektyw</span></p>
+                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Movement Kolektyw</span></p>
               </div>
             </div>
 
@@ -267,7 +267,7 @@
                   <span
                     class="px-3 py-1 bg-white border border-gray-200 text-gray-500 text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
                 </div>
-                <p class="text-lg text-gray-500">Prowadzący: <span class="font-semibold">Lena Skrzypczak</span></p>
+                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Lena Skrzypczak</span></p>
               </div>
             </div>
 
@@ -284,7 +284,7 @@
                   <span
                     class="px-3 py-1 bg-white border border-gray-200 text-gray-500 text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
                 </div>
-                <p class="text-lg text-gray-500">Prowadzący: <span class="font-semibold">Maciej Borucz</span></p>
+                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Maciej Borucz</span></p>
               </div>
             </div>
 
@@ -366,14 +366,15 @@ useSeoMeta({
   ogUrl: siteUrl,
   ogType: 'website',
   ogLocale: 'pl_PL',
+})
+
+useHead({
+  htmlAttrs: { class: 'scroll-smooth', lang: 'pl' },
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;600;700&display=swap' }
+    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap' },
   ],
-  htmlAttrs: {
-    class: 'scroll-smooth'
-  }
 })
 
 onMounted(() => {

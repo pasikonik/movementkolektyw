@@ -1,7 +1,7 @@
 <template>
   <nav :class="[
     'fixed w-full z-50 transition-all duration-300 px-6 md:px-12',
-    isScrolled ? 'bg-[#FAFAFA]/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-4'
+    isScrolled ? 'bg-[#FAFAFA]/70 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-4'
   ]">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
       <NuxtLink to="#hero" class="block">
