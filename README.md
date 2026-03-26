@@ -11,9 +11,9 @@ Informational page about movement community.
 | ---------------- | ----------- | ------------------------------------------------------- |
 | **Node.js**      | 22.14.0     | Recommended stable LTS version 22.x                     |
 | **Nuxt**         | 4.4.2       | Primary application framework (SSR/SPA)                 |
-| **@nuxt/ui**     | 4.5.1       | Nuxt UI component library                               |
-| **Tailwind CSS** | 4.1.12      | CSS framework for styling and flexible layouts          |
-| **Vue**          | 3.5.13      | Core framework for building user interfaces             |
+| **@nuxt/ui**     | 4.6.0       | Nuxt UI component library                               |
+| **Tailwind CSS** | 4.2.2       | CSS framework for styling and flexible layouts           |
+| **Vue**          | 3.5.31      | Core framework for building user interfaces             |
 | **pnpm**         | 10.32.1     | Fast and efficient package manager for Node.js projects |
 
 ## 🚩 Roadmap
