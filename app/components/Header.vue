@@ -15,8 +15,8 @@
       </div>
 
       <!-- Mobile Hamburger -->
-      <button @click="toggleMobileMenu" class="md:hidden text-2xl focus:outline-none" aria-label="Menu">
-        <i :class="isMobileMenuOpen ? 'ph ph-x' : 'ph ph-list'"></i>
+      <button class="md:hidden text-2xl focus:outline-none" aria-label="Menu" @click="toggleMobileMenu">
+        <Icon :name="isMobileMenuOpen ? 'lucide:x' : 'lucide:menu'" />
       </button>
     </div>
 
