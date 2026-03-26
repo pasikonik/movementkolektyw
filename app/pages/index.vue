@@ -56,7 +56,7 @@
       </div>
     </section>
 
-    <!-- Section 3: Zajęcia (Format i Cennik) przebudowane -->
+    <!-- Section 3: Zajęcia (Format i Cennik) -->
     <section id="zajecia" class="py-24 md:py-40 px-6 md:px-12 bg-[#F0F0F0]">
       <div class="max-w-7xl mx-auto">
         <div class="fade-in-section space-y-12 md:space-y-16">
@@ -89,58 +89,28 @@
             </div>
           </div>
 
-          <!-- Cennik w 3 kolumnach -->
+          <!-- Cennik -->
           <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
-
-            <!-- Karta 1 -->
-            <div
-              class="flex flex-col justify-between p-8 border border-gray-200 bg-white hover:border-[#D96C4A] hover:-translate-y-1 hover:shadow-md transition-all duration-300 rounded-xl">
-              <div>
-                <div class="font-['Space_Grotesk'] text-2xl font-bold mb-2">Pojedyncze wejście</div>
-                <div class="text-3xl font-bold text-[#1A1A1A] mb-4">35 <span
-                    class="text-base font-normal text-gray-500">PLN</span></div>
-              </div>
+            <div v-for="plan in pricing" :key="plan.name" :class="[
+              'flex flex-col justify-between p-8 bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300 rounded-xl relative',
+              plan.featured ? 'border-2 border-[#D96C4A]' : 'border border-gray-200 hover:border-[#D96C4A]'
+            ]">
               <div
-                class="text-sm font-medium text-[#D96C4A] bg-[#FAFAFA] py-2 px-3 inline-block rounded border border-gray-100 mt-8 text-center">
-                35 PLN / zajęcia
+                v-if="plan.featured"
+                class="absolute -top-2 right-4 bg-[#D96C4A] text-white text-[11px] font-medium px-2 py-0.5 rounded">
+                Najlepsza cena w mieście
               </div>
-            </div>
-
-            <!-- Karta 2 -->
-            <div
-              class="flex flex-col justify-between p-8 border border-gray-200 bg-white hover:border-[#D96C4A] hover:-translate-y-1 hover:shadow-md transition-all duration-300 rounded-xl relative overflow-hidden">
               <div>
-                <div class="font-['Space_Grotesk'] text-2xl font-bold mb-2">Karnet 1x w tygodniu</div>
-                <div class="text-3xl font-bold text-[#1A1A1A] mb-4">70 <span
-                    class="text-base font-normal text-gray-500">PLN / mc</span></div>
-              </div>
-              <div
-                class="text-sm font-medium text-[#D96C4A] bg-[#FAFAFA] py-2 px-3 inline-block rounded border border-gray-100 mt-8 text-center">
-                17.50 PLN / zajęcia
-              </div>
-            </div>
-
-            <!-- Karta 3 -->
-            <div
-              class="flex flex-col justify-between p-8 border-2 border-[#D96C4A] bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300 rounded-xl relative">
-              <div>
-                <div
-                  class="absolute -top-2 right-4 bg-[#D96C4A] text-white text-[11px] font-medium px-2 py-0.5 rounded">
-                  Najlepsza cena w mieście
-                </div>
-
-                <div class="font-['Space_Grotesk'] text-2xl font-bold mb-2 text-[#1A1A1A]">Karnet 2x w tygodniu</div>
+                <div class="font-['Space_Grotesk'] text-2xl font-bold mb-2">{{ plan.name }}</div>
                 <div class="text-3xl font-bold text-[#1A1A1A] mb-4">
-                  100 <span class="text-base font-normal text-gray-500">PLN / mc</span>
+                  {{ plan.price }} <span class="text-base font-normal text-gray-500">{{ plan.unit }}</span>
                 </div>
               </div>
-
               <div
                 class="text-sm font-medium text-[#D96C4A] bg-[#FAFAFA] py-2 px-3 inline-block rounded border border-gray-100 mt-8 text-center">
-                12.50 PLN / zajęcia
+                {{ plan.perClass }}
               </div>
             </div>
-
           </div>
 
           <!-- Info banner -->
@@ -161,133 +131,24 @@
           Kalendarium warsztatów</h2>
 
         <div class="relative">
-          <!-- Timeline Vertical Line -->
           <div class="absolute left-[7px] top-2 bottom-0 w-[2px] bg-gray-200"></div>
 
           <div class="space-y-12">
-
-            <!-- Event 1 -->
-            <div class="relative pl-8 md:pl-12 group">
+            <div v-for="event in events" :key="event.title" class="relative pl-8 md:pl-12 group">
               <div
                 class="absolute left-0 top-1.5 w-4 h-4 rounded-full bg-[#D96C4A] ring-4 ring-[#FAFAFA] z-10 group-hover:scale-125 transition-transform duration-300">
               </div>
-
               <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold text-gray-500 uppercase tracking-widest">7 listopada 2025</span>
+                <span class="text-sm font-bold text-gray-500 uppercase tracking-widest">{{ event.date }}</span>
                 <div class="flex flex-wrap items-center gap-3">
-                  <h3 class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold">Lokomocja i praca kręgosłupa</h3>
-                  <span
-                    class="px-3 py-1 bg-white border border-[#1A1A1A]/20 text-[#1A1A1A] text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
+                  <h3 class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold">{{ event.title }}</h3>
+                  <span :class="['px-3 py-1 text-xs font-bold uppercase tracking-wider rounded', badgeClass[event.type]]">
+                    {{ event.type }}
+                  </span>
                 </div>
-                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Mikołaj
-                    Lira</span></p>
+                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">{{ event.instructor }}</span></p>
               </div>
             </div>
-
-            <!-- Event 2 -->
-            <div class="relative pl-8 md:pl-12 group">
-              <div
-                class="absolute left-0 top-1.5 w-4 h-4 rounded-full bg-[#D96C4A] ring-4 ring-[#FAFAFA] z-10 group-hover:scale-125 transition-transform duration-300">
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold text-gray-500 uppercase tracking-widest">27 kwietnia 2025</span>
-                <div class="flex flex-wrap items-center gap-3">
-                  <h3 class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold">Ciężar, pęd i przestrzeń</h3>
-                  <span
-                    class="px-3 py-1 bg-white border border-[#1A1A1A]/20 text-[#1A1A1A] text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
-                </div>
-                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Tomasz
-                    Koszan</span></p>
-              </div>
-            </div>
-
-            <!-- Event 3 -->
-            <div class="relative pl-8 md:pl-12 group">
-              <div
-                class="absolute left-0 top-1.5 w-4 h-4 rounded-full bg-[#D96C4A] ring-4 ring-[#FAFAFA] z-10 group-hover:scale-125 transition-transform duration-300">
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold text-gray-500 uppercase tracking-widest">5 stycznia 2025</span>
-                <div class="flex flex-wrap items-center gap-3">
-                  <h3 class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold">4 Filary Ruchu</h3>
-                  <span
-                    class="px-3 py-1 bg-white border border-[#1A1A1A]/20 text-[#1A1A1A] text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
-                </div>
-                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Filip
-                    Droszcz</span></p>
-              </div>
-            </div>
-
-            <!-- Event 4 -->
-            <div class="relative pl-8 md:pl-12 group">
-              <div
-                class="absolute left-0 top-1.5 w-4 h-4 rounded-full bg-[#D96C4A] ring-4 ring-[#FAFAFA] z-10 group-hover:scale-125 transition-transform duration-300">
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold text-gray-500 uppercase tracking-widest">16 listopada 2024</span>
-                <div class="flex flex-wrap items-center gap-3">
-                  <h3 class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold">Floorwork & Partnerowanie</h3>
-                  <span
-                    class="px-3 py-1 bg-white border border-gray-200 text-gray-500 text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
-                </div>
-                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Katarzyna Paluch</span></p>
-              </div>
-            </div>
-
-            <!-- Event 5 -->
-            <div class="relative pl-8 md:pl-12 group">
-              <div
-                class="absolute left-0 top-1.5 w-4 h-4 rounded-full bg-[#D96C4A] ring-4 ring-[#FAFAFA] z-10 group-hover:scale-125 transition-transform duration-300">
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold text-gray-500 uppercase tracking-widest">1 września 2024</span>
-                <div class="flex flex-wrap items-center gap-3">
-                  <h3 class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold">Piknik Ruchowy Cytadela</h3>
-                  <span
-                    class="px-3 py-1 bg-[#F0F0F0] text-gray-600 text-xs font-bold uppercase tracking-wider rounded">outdoor</span>
-                </div>
-                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Movement Kolektyw</span></p>
-              </div>
-            </div>
-
-            <!-- Event 6 -->
-            <div class="relative pl-8 md:pl-12 group">
-              <div
-                class="absolute left-0 top-1.5 w-4 h-4 rounded-full bg-[#D96C4A] ring-4 ring-[#FAFAFA] z-10 group-hover:scale-125 transition-transform duration-300">
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold text-gray-500 uppercase tracking-widest">25 sierpnia 2024</span>
-                <div class="flex flex-wrap items-center gap-3">
-                  <h3 class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold">Soft Acrobatics</h3>
-                  <span
-                    class="px-3 py-1 bg-white border border-gray-200 text-gray-500 text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
-                </div>
-                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Lena Skrzypczak</span></p>
-              </div>
-            </div>
-
-            <!-- Event 7 -->
-            <div class="relative pl-8 md:pl-12 group">
-              <div
-                class="absolute left-0 top-1.5 w-4 h-4 rounded-full bg-[#D96C4A] ring-4 ring-[#FAFAFA] z-10 group-hover:scale-125 transition-transform duration-300">
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <span class="text-sm font-bold text-gray-500 uppercase tracking-widest">26 maja 2024</span>
-                <div class="flex flex-wrap items-center gap-3">
-                  <h3 class="font-['Space_Grotesk'] text-2xl md:text-3xl font-bold">Primal Therapy</h3>
-                  <span
-                    class="px-3 py-1 bg-white border border-gray-200 text-gray-500 text-xs font-bold uppercase tracking-wider rounded">warsztat</span>
-                </div>
-                <p class="text-lg text-gray-700">Prowadzący: <span class="font-semibold text-[#1A1A1A]">Maciej Borucz</span></p>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
@@ -369,13 +230,34 @@ useSeoMeta({
 })
 
 useHead({
-  htmlAttrs: { class: 'scroll-smooth', lang: 'pl' },
+  htmlAttrs: { lang: 'pl' },
   link: [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap' },
   ],
 })
+
+const pricing = [
+  { name: 'Pojedyncze wejście', price: '35', unit: 'PLN', perClass: '35 PLN / zajęcia', featured: false },
+  { name: 'Karnet 1x w tygodniu', price: '70', unit: 'PLN / mc', perClass: '17.50 PLN / zajęcia', featured: false },
+  { name: 'Karnet 2x w tygodniu', price: '100', unit: 'PLN / mc', perClass: '12.50 PLN / zajęcia', featured: true },
+]
+
+const events = [
+  { date: '7 listopada 2025', title: 'Lokomocja i praca kręgosłupa', type: 'warsztat', instructor: 'Mikołaj Lira' },
+  { date: '27 kwietnia 2025', title: 'Ciężar, pęd i przestrzeń', type: 'warsztat', instructor: 'Tomasz Koszan' },
+  { date: '5 stycznia 2025', title: '4 Filary Ruchu', type: 'warsztat', instructor: 'Filip Droszcz' },
+  { date: '16 listopada 2024', title: 'Floorwork & Partnerowanie', type: 'warsztat', instructor: 'Katarzyna Paluch' },
+  { date: '1 września 2024', title: 'Piknik Ruchowy Cytadela', type: 'outdoor', instructor: 'Movement Kolektyw' },
+  { date: '25 sierpnia 2024', title: 'Soft Acrobatics', type: 'warsztat', instructor: 'Lena Skrzypczak' },
+  { date: '26 maja 2024', title: 'Primal Therapy', type: 'warsztat', instructor: 'Maciej Borucz' },
+]
+
+const badgeClass = {
+  warsztat: 'bg-white border border-[#1A1A1A]/20 text-[#1A1A1A]',
+  outdoor: 'bg-[#F0F0F0] text-gray-600',
+}
 
 onMounted(() => {
   const observer = new IntersectionObserver((entries, observerInstance) => {
@@ -387,11 +269,11 @@ onMounted(() => {
     })
   }, { threshold: 0.15 })
 
-  setTimeout(() => {
+  nextTick(() => {
     document.querySelectorAll('.fade-in-section').forEach(section => {
       observer.observe(section)
     })
-  }, 100)
+  })
 })
 </script>
 
