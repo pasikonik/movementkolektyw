@@ -128,7 +128,7 @@
     <section id="wydarzenia" class="py-24 md:py-40 px-6 md:px-12 bg-[#FAFAFA]">
       <div class="max-w-4xl mx-auto fade-in-section">
         <h2 class="font-['Space_Grotesk'] text-4xl md:text-6xl font-bold mb-16 border-b-2 border-gray-200 pb-8">
-          Kalendarium warsztatów</h2>
+          Kalendarium warsztatów i wydarzeń</h2>
 
         <div class="relative">
           <div class="absolute left-[7px] top-2 bottom-0 w-[2px] bg-gray-200"></div>
@@ -245,6 +245,9 @@ const pricing = [
 ]
 
 const events = [
+  { date: '30 lipca - 2 sierpnia 2026', title: 'Obóz movementowy w Derkaczach vol 3.', type: 'wyjazd', instructor: 'Movement Kolektyw & Eryk Pawłowski' },
+  { date: '4 czerwca 2026', title: 'Partnering i miękkie akrobacje w parach vol 2.', type: 'warsztat', instructor: 'Paweł Konior' },
+  { date: '8 maja 2026', title: 'Partnering i miękkie akrobacje w parach', type: 'warsztat', instructor: 'Paweł Konior' },
   { date: '7 listopada 2025', title: 'Lokomocja i praca kręgosłupa', type: 'warsztat', instructor: 'Mikołaj Lira' },
   { date: '27 kwietnia 2025', title: 'Ciężar, pęd i przestrzeń', type: 'warsztat', instructor: 'Tomasz Koszan' },
   { date: '5 stycznia 2025', title: '4 Filary Ruchu', type: 'warsztat', instructor: 'Filip Droszcz' },
