@@ -128,7 +128,7 @@
     <section id="wydarzenia" class="py-24 md:py-40 px-6 md:px-12 bg-[#FAFAFA]">
       <div class="max-w-4xl mx-auto fade-in-section">
         <h2 class="font-['Space_Grotesk'] text-4xl md:text-6xl font-bold mb-16 border-b-2 border-gray-200 pb-8">
-          Kalendarium warsztatów i wydarzeń</h2>
+          Kalendarium wydarzeń</h2>
 
         <div class="relative">
           <div class="absolute left-[7px] top-2 bottom-0 w-[2px] bg-gray-200"></div>
@@ -260,6 +260,7 @@ const events = [
 const badgeClass = {
   warsztat: 'bg-white border border-[#1A1A1A]/20 text-[#1A1A1A]',
   outdoor: 'bg-[#F0F0F0] text-gray-600',
+  wyjazd: 'bg-[#D96C4A] text-white border border-[#D96C4A]',
 }
 
 onMounted(() => {
