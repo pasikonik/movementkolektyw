@@ -10,10 +10,10 @@
 
       <!-- Desktop Menu -->
       <div class="hidden md:flex gap-8 font-medium">
-        <a href="#misja" class="hover:text-[#D96C4A] transition-colors">Misja</a>
-        <a href="#zajecia" class="hover:text-[#D96C4A] transition-colors">Zajęcia</a>
-        <a href="#wydarzenia" class="hover:text-[#D96C4A] transition-colors">Wydarzenia</a>
-        <a href="#kontakt" class="hover:text-[#D96C4A] transition-colors">Kontakt</a>
+        <a href="#misja" class="nav-link hover:text-[#D96C4A] transition-colors">Misja</a>
+        <a href="#zajecia" class="nav-link hover:text-[#D96C4A] transition-colors">Zajęcia</a>
+        <a href="#wydarzenia" class="nav-link hover:text-[#D96C4A] transition-colors">Wydarzenia</a>
+        <a href="#kontakt" class="nav-link hover:text-[#D96C4A] transition-colors">Kontakt</a>
       </div>
 
       <!-- Mobile Hamburger -->
@@ -57,3 +57,24 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
 </script>
+
+<style scoped>
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -4px;
+  height: 2px;
+  background: #D96C4A;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+</style>
