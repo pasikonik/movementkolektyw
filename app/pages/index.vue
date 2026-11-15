@@ -249,10 +249,12 @@ const events = [
   { date: '4 czerwca 2026', title: 'Partnering i miękkie akrobacje w parach vol 2.', type: 'warsztat', instructor: 'Paweł Konior' },
   { date: '8 maja 2026', title: 'Partnering i miękkie akrobacje w parach', type: 'warsztat', instructor: 'Paweł Konior' },
   { date: '7 listopada 2025', title: 'Lokomocja i praca kręgosłupa', type: 'warsztat', instructor: 'Mikołaj Lira' },
+  { date: 'sierpień 2025', title: 'Obóz movementowy w Derkaczach vol 2.', type: 'wyjazd', instructor: 'Movement Kolektyw' },
   { date: '27 kwietnia 2025', title: 'Ciężar, pęd i przestrzeń', type: 'warsztat', instructor: 'Tomasz Koszan' },
   { date: '5 stycznia 2025', title: '4 Filary Ruchu', type: 'warsztat', instructor: 'Filip Droszcz' },
   { date: '16 listopada 2024', title: 'Floorwork & Partnerowanie', type: 'warsztat', instructor: 'Katarzyna Paluch' },
   { date: '1 września 2024', title: 'Piknik Ruchowy Cytadela', type: 'outdoor', instructor: 'Movement Kolektyw' },
+  { date: 'sierpień 2024', title: 'Obóz movementowy w Derkaczach vol 1.', type: 'wyjazd', instructor: 'Movement Kolektyw' },
   { date: '25 sierpnia 2024', title: 'Soft Acrobatics', type: 'warsztat', instructor: 'Lena Skrzypczak' },
   { date: '26 maja 2024', title: 'Primal Therapy', type: 'warsztat', instructor: 'Maciej Borucz' },
 ]

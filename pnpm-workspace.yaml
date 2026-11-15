@@ -3,3 +3,6 @@ onlyBuiltDependencies:
   - esbuild
   - sharp
   - vue-demi
+overrides:
+  '@tiptap/core': 3.34.0
+  '@tiptap/pm': 3.34.0
